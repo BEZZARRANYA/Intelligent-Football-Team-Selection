@@ -13,13 +13,15 @@
         "minutes": 2520,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
+        "totalCandidates": 2,
         "selectionSentence": "Marc-Andr\u00e9 ter Stegen starts at GK as the top-rated option, excelling in passing accuracy and shot stopping.",
         "backupComparison": "He was the clear choice, outperforming I\u00f1aki Pe\u00f1a by 30.8 points.",
         "bestAlternative": {
-          "player_id": 2,
-          "player_name": "I\u00f1aki Pe\u00f1a",
-          "score": 38.7
+          "playerId": 2,
+          "playerName": "I\u00f1aki Pe\u00f1a",
+          "score": 38.7,
+          "naturalPosition": "GK",
+          "compatFactor": 1.0
         },
         "scoreGap": 30.799999999999997,
         "selectionReasons": [
@@ -48,139 +50,145 @@
         "positionDescription": "Goalkeeper - Last line of defense, responsible for shot stopping"
       },
       {
-        "playerId": 3,
-        "playerName": "Jules Kound\u00e9",
+        "playerId": 4,
+        "playerName": "Jo\u00e3o Cancelo",
         "position": "RB",
         "naturalPosition": "RB",
         "isNaturalPosition": true,
-        "overallScore": 63.8,
-        "fitness": 89.8,
-        "recentForm": 84.4,
-        "minutes": 2880,
+        "overallScore": 72.2,
+        "fitness": 73.4,
+        "recentForm": 89.1,
+        "minutes": 1620,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Jules Kound\u00e9 starts at RB as the top-rated option, excelling in passing accuracy and creating chances.",
-        "backupComparison": "It was a tight race with Jo\u00e3o Cancelo (only 2.4 points ahead).",
+        "totalCandidates": 4,
+        "selectionSentence": "Jo\u00e3o Cancelo starts at RB as the top-rated option, excelling in passing accuracy and winning the ball.",
+        "backupComparison": "He had a solid edge over Marcos Alonso (12.1 points higher).",
         "bestAlternative": {
-          "player_id": 4,
-          "player_name": "Jo\u00e3o Cancelo",
-          "score": 61.4
+          "playerId": 10,
+          "playerName": "Marcos Alonso",
+          "score": 60.1,
+          "naturalPosition": "LB",
+          "compatFactor": 0.84
         },
-        "scoreGap": 2.3999999999999986,
+        "scoreGap": 12.100000000000001,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 99.93,
-            "contribution": 15.0,
-            "normalized": 99.9
+            "value": 97.83,
+            "contribution": 14.7,
+            "normalized": 97.8
+          },
+          {
+            "stat": "tackles",
+            "description": "winning the ball",
+            "value": 0.17,
+            "contribution": 11.5,
+            "normalized": 64.1
           },
           {
             "stat": "key_passes",
             "description": "creating chances",
-            "value": 1.37,
+            "value": 0.07,
             "contribution": 10.3,
-            "normalized": 64.1
-          },
-          {
-            "stat": "dribbles",
-            "description": "beating opponents",
-            "value": 1.65,
-            "contribution": 9.0,
             "normalized": 64.1
           }
         ],
         "positionDescription": "Right Back - Defends the right flank and supports attacks"
       },
       {
-        "playerId": 5,
-        "playerName": "Ronald Ara\u00fajo",
+        "playerId": 8,
+        "playerName": "Pau Cubars\u00ed",
         "position": "CB_1",
         "naturalPosition": "CB",
         "isNaturalPosition": true,
-        "overallScore": 82.9,
-        "fitness": 96.8,
-        "recentForm": 80.5,
-        "minutes": 2160,
+        "overallScore": 62.1,
+        "fitness": 74.7,
+        "recentForm": 42.2,
+        "minutes": 540,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Ronald Ara\u00fajo starts at CB as the top-rated option, excelling in passing accuracy and defensive clearances.",
-        "backupComparison": "He was the clear choice, outperforming Andreas Christensen by 21.2 points.",
+        "totalCandidates": 6,
+        "selectionSentence": "Pau Cubars\u00ed starts at CB as the top-rated option, excelling in passing accuracy and reading the game.",
+        "backupComparison": "It was a tight race with I\u00f1igo Mart\u00ednez (only 2.8 points ahead).",
         "bestAlternative": {
-          "player_id": 6,
-          "player_name": "Andreas Christensen",
-          "score": 61.7
+          "playerId": 7,
+          "playerName": "I\u00f1igo Mart\u00ednez",
+          "score": 59.3,
+          "naturalPosition": "CB",
+          "compatFactor": 1.0
         },
-        "scoreGap": 21.200000000000003,
+        "scoreGap": 2.8000000000000043,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 16.0,
-            "normalized": 100.0
-          },
-          {
-            "stat": "clearances",
-            "description": "defensive clearances",
-            "value": 4.98,
-            "contribution": 14.2,
-            "normalized": 79.0
+            "value": 95.84,
+            "contribution": 15.3,
+            "normalized": 95.8
           },
           {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 4.09,
-            "contribution": 13.3,
-            "normalized": 73.7
+            "value": 0.57,
+            "contribution": 14.3,
+            "normalized": 79.3
+          },
+          {
+            "stat": "clearances",
+            "description": "defensive clearances",
+            "value": 0.59,
+            "contribution": 14.1,
+            "normalized": 78.6
           }
         ],
         "positionDescription": "Center Back - Central defender who wins aerial duels"
       },
       {
-        "playerId": 6,
-        "playerName": "Andreas Christensen",
+        "playerId": 7,
+        "playerName": "I\u00f1igo Mart\u00ednez",
         "position": "CB_2",
         "naturalPosition": "CB",
         "isNaturalPosition": true,
-        "overallScore": 61.7,
-        "fitness": 73.7,
-        "recentForm": 88.2,
-        "minutes": 1980,
+        "overallScore": 59.3,
+        "fitness": 77.1,
+        "recentForm": 81.6,
+        "minutes": 1080,
         "compatFactor": 1.0,
         "rankForPosition": 2,
-        "totalCandidates": 24,
-        "selectionSentence": "Andreas Christensen starts at CB as the second-best option, excelling in passing accuracy and reading the game.",
-        "backupComparison": "Interestingly, Ronald Ara\u00fajo actually scored higher for this position.",
+        "totalCandidates": 6,
+        "selectionSentence": "I\u00f1igo Mart\u00ednez starts at CB as the second-best option, excelling in passing accuracy and defensive clearances.",
+        "backupComparison": "Interestingly, Pau Cubars\u00ed actually scored higher for this position.",
         "bestAlternative": {
-          "player_id": 5,
-          "player_name": "Ronald Ara\u00fajo",
-          "score": 82.9
+          "playerId": 8,
+          "playerName": "Pau Cubars\u00ed",
+          "score": 62.1,
+          "naturalPosition": "CB",
+          "compatFactor": 1.0
         },
-        "scoreGap": -21.200000000000003,
+        "scoreGap": -2.8000000000000043,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 16.0,
-            "normalized": 100.0
+            "value": 86.18,
+            "contribution": 13.8,
+            "normalized": 86.2
+          },
+          {
+            "stat": "clearances",
+            "description": "defensive clearances",
+            "value": 0.31,
+            "contribution": 8.8,
+            "normalized": 48.9
           },
           {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 3.72,
-            "contribution": 10.2,
-            "normalized": 56.4
-          },
-          {
-            "stat": "recent_form_score",
-            "description": "recent form",
-            "value": 88.2,
-            "contribution": 8.8,
-            "normalized": 88.2
+            "value": 0.26,
+            "contribution": 8.3,
+            "normalized": 46.3
           }
         ],
         "positionDescription": "Center Back - Central defender who wins aerial duels"
@@ -191,21 +199,23 @@
         "position": "LB",
         "naturalPosition": "LB",
         "isNaturalPosition": true,
-        "overallScore": 73.5,
+        "overallScore": 53.4,
         "fitness": 93.1,
         "recentForm": 92.9,
         "minutes": 2340,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Alejandro Balde starts at LB as the top-rated option, excelling in passing accuracy and winning the ball.",
-        "backupComparison": "He had a solid edge over Jules Kound\u00e9 (13.0 points higher).",
+        "totalCandidates": 4,
+        "selectionSentence": "Alejandro Balde starts at LB as the top-rated option, excelling in passing accuracy and recent form.",
+        "backupComparison": "It was a tight race with Marcos Alonso (only 1.9 points ahead).",
         "bestAlternative": {
-          "player_id": 3,
-          "player_name": "Jules Kound\u00e9",
-          "score": 60.5
+          "playerId": 10,
+          "playerName": "Marcos Alonso",
+          "score": 51.5,
+          "naturalPosition": "LB",
+          "compatFactor": 1.0
         },
-        "scoreGap": 13.0,
+        "scoreGap": 1.8999999999999986,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
@@ -215,62 +225,64 @@
             "normalized": 100.0
           },
           {
-            "stat": "tackles",
-            "description": "winning the ball",
-            "value": 2.52,
-            "contribution": 11.5,
-            "normalized": 64.1
+            "stat": "recent_form_score",
+            "description": "recent form",
+            "value": 92.9,
+            "contribution": 9.3,
+            "normalized": 92.9
           },
           {
-            "stat": "key_passes",
-            "description": "creating chances",
-            "value": 1.82,
-            "contribution": 10.3,
-            "normalized": 64.1
+            "stat": "tackles",
+            "description": "winning the ball",
+            "value": 0.1,
+            "contribution": 6.5,
+            "normalized": 35.9
           }
         ],
         "positionDescription": "Left Back - Defends the left flank and supports attacks"
       },
       {
-        "playerId": 12,
-        "playerName": "Frenkie de Jong",
+        "playerId": 11,
+        "playerName": "Oriol Romeu",
         "position": "DM",
         "naturalPosition": "DM",
         "isNaturalPosition": true,
-        "overallScore": 75.1,
-        "fitness": 75.0,
-        "recentForm": 93.6,
-        "minutes": 1800,
+        "overallScore": 66.0,
+        "fitness": 60.7,
+        "recentForm": 75.5,
+        "minutes": 900,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Frenkie de Jong starts at DM as the top-rated option, excelling in passing accuracy and winning the ball.",
-        "backupComparison": "He had a solid edge over Pedri (10.9 points higher).",
+        "totalCandidates": 10,
+        "selectionSentence": "Oriol Romeu starts at DM as the top-rated option, excelling in winning the ball and passing accuracy.",
+        "backupComparison": "He narrowly beat out Gavi by 4.6 points.",
         "bestAlternative": {
-          "player_id": 14,
-          "player_name": "Pedri",
-          "score": 64.2
+          "playerId": 16,
+          "playerName": "Gavi",
+          "score": 61.4,
+          "naturalPosition": "CM",
+          "compatFactor": 0.84
         },
-        "scoreGap": 10.899999999999991,
+        "scoreGap": 4.600000000000001,
         "selectionReasons": [
-          {
-            "stat": "pass_accuracy",
-            "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 20.0,
-            "normalized": 100.0
-          },
           {
             "stat": "tackles",
             "description": "winning the ball",
-            "value": 4.13,
+            "value": 0.23,
             "contribution": 14.1,
             "normalized": 64.1
           },
           {
+            "stat": "pass_accuracy",
+            "description": "passing accuracy",
+            "value": 69.33,
+            "contribution": 13.9,
+            "normalized": 69.3
+          },
+          {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 3.14,
+            "value": 0.17,
             "contribution": 11.5,
             "normalized": 64.1
           }
@@ -278,26 +290,28 @@
         "positionDescription": "Defensive Midfielder - Shields the defense, breaks up attacks"
       },
       {
-        "playerId": 14,
-        "playerName": "Pedri",
+        "playerId": 16,
+        "playerName": "Gavi",
         "position": "CM_1",
         "naturalPosition": "CM",
         "isNaturalPosition": true,
-        "overallScore": 77.7,
-        "fitness": 96.2,
-        "recentForm": 92.3,
-        "minutes": 2160,
+        "overallScore": 69.2,
+        "fitness": 70.7,
+        "recentForm": 70.7,
+        "minutes": 1080,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Pedri starts at CM as the top-rated option, excelling in passing accuracy and creating chances.",
-        "backupComparison": "He narrowly beat out \u0130lkay G\u00fcndo\u011fan by 5.3 points.",
+        "totalCandidates": 8,
+        "selectionSentence": "Gavi starts at CM as the top-rated option, excelling in passing accuracy and creating chances.",
+        "backupComparison": "He had a solid edge over Ferm\u00edn L\u00f3pez (9.3 points higher).",
         "bestAlternative": {
-          "player_id": 13,
-          "player_name": "\u0130lkay G\u00fcndo\u011fan",
-          "score": 72.4
+          "playerId": 15,
+          "playerName": "Ferm\u00edn L\u00f3pez",
+          "score": 59.9,
+          "naturalPosition": "CM",
+          "compatFactor": 1.0
         },
-        "scoreGap": 5.299999999999997,
+        "scoreGap": 9.300000000000004,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
@@ -309,62 +323,64 @@
           {
             "stat": "key_passes",
             "description": "creating chances",
-            "value": 2.28,
-            "contribution": 12.8,
-            "normalized": 71.4
+            "value": 0.17,
+            "contribution": 10.8,
+            "normalized": 60.1
           },
           {
             "stat": "progressive_passes",
             "description": "moving forward",
-            "value": 8.86,
-            "contribution": 10.6,
-            "normalized": 66.5
+            "value": 0.58,
+            "contribution": 8.7,
+            "normalized": 54.2
           }
         ],
         "positionDescription": "Central Midfielder - Controls tempo, links defense and attack"
       },
       {
-        "playerId": 13,
-        "playerName": "\u0130lkay G\u00fcndo\u011fan",
+        "playerId": 15,
+        "playerName": "Ferm\u00edn L\u00f3pez",
         "position": "CM_2",
         "naturalPosition": "CM",
         "isNaturalPosition": true,
-        "overallScore": 72.4,
-        "fitness": 87.4,
-        "recentForm": 92.1,
-        "minutes": 2700,
+        "overallScore": 59.9,
+        "fitness": 58.1,
+        "recentForm": 68.3,
+        "minutes": 720,
         "compatFactor": 1.0,
         "rankForPosition": 2,
-        "totalCandidates": 24,
-        "selectionSentence": "\u0130lkay G\u00fcndo\u011fan starts at CM as the second-best option, excelling in passing accuracy and moving forward.",
-        "backupComparison": "Interestingly, Pedri actually scored higher for this position.",
+        "totalCandidates": 8,
+        "selectionSentence": "Ferm\u00edn L\u00f3pez starts at CM as the second-best option, excelling in passing accuracy and creating chances.",
+        "backupComparison": "Interestingly, Gavi actually scored higher for this position.",
         "bestAlternative": {
-          "player_id": 14,
-          "player_name": "Pedri",
-          "score": 77.7
+          "playerId": 16,
+          "playerName": "Gavi",
+          "score": 69.2,
+          "naturalPosition": "CM",
+          "compatFactor": 1.0
         },
-        "scoreGap": -5.299999999999997,
+        "scoreGap": -9.300000000000004,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 20.0,
-            "normalized": 100.0
-          },
-          {
-            "stat": "progressive_passes",
-            "description": "moving forward",
-            "value": 8.95,
-            "contribution": 10.9,
-            "normalized": 68.1
+            "value": 88.3,
+            "contribution": 17.7,
+            "normalized": 88.3
           },
           {
             "stat": "key_passes",
             "description": "creating chances",
-            "value": 2.07,
-            "contribution": 9.6,
-            "normalized": 53.2
+            "value": 0.21,
+            "contribution": 13.1,
+            "normalized": 72.9
+          },
+          {
+            "stat": "progressive_passes",
+            "description": "moving forward",
+            "value": 0.85,
+            "contribution": 12.2,
+            "normalized": 76.4
           }
         ],
         "positionDescription": "Central Midfielder - Controls tempo, links defense and attack"
@@ -375,88 +391,92 @@
         "position": "RW",
         "naturalPosition": "RW",
         "isNaturalPosition": true,
-        "overallScore": 68.8,
+        "overallScore": 56.2,
         "fitness": 90.0,
         "recentForm": 90.4,
         "minutes": 2430,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Lamine Yamal starts at RW as the top-rated option, excelling in goal scoring and beating opponents.",
-        "backupComparison": "He was the clear choice, outperforming Raphinha by 24.4 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Lamine Yamal starts at RW as the top-rated option, excelling in creating chances and goal scoring.",
+        "backupComparison": "Interestingly, Raphinha actually scored higher for this position.",
         "bestAlternative": {
-          "player_id": 20,
-          "player_name": "Raphinha",
-          "score": 44.4
+          "playerId": 20,
+          "playerName": "Raphinha",
+          "score": 56.2,
+          "naturalPosition": "RW",
+          "compatFactor": 1.0
         },
-        "scoreGap": 24.4,
+        "scoreGap": 0.0,
         "selectionReasons": [
           {
-            "stat": "goals",
-            "description": "goal scoring",
-            "value": 0.48,
+            "stat": "key_passes",
+            "description": "creating chances",
+            "value": 0.1,
             "contribution": 14.1,
             "normalized": 64.1
           },
           {
-            "stat": "dribbles",
-            "description": "beating opponents",
-            "value": 5.6,
-            "contribution": 11.5,
+            "stat": "goals",
+            "description": "goal scoring",
+            "value": 0.02,
+            "contribution": 11.0,
             "normalized": 64.1
           },
           {
             "stat": "recent_form_score",
             "description": "recent form",
             "value": 90.4,
-            "contribution": 10.8,
+            "contribution": 8.8,
             "normalized": 90.4
           }
         ],
         "positionDescription": "Right Winger - Attacks from the right, cuts inside or crosses"
       },
       {
-        "playerId": 21,
-        "playerName": "Jo\u00e3o F\u00e9lix",
+        "playerId": 22,
+        "playerName": "Vitor Roque",
         "position": "LW",
         "naturalPosition": "LW",
         "isNaturalPosition": true,
-        "overallScore": 64.0,
-        "fitness": 71.7,
-        "recentForm": 89.6,
-        "minutes": 1890,
+        "overallScore": 50.7,
+        "fitness": 55.9,
+        "recentForm": 61.4,
+        "minutes": 450,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Jo\u00e3o F\u00e9lix starts at LW as the top-rated option, excelling in goal scoring and beating opponents.",
-        "backupComparison": "He was the clear choice, outperforming Dani Olmo by 20.6 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Vitor Roque starts at LW as the top-rated option, excelling in creating chances and beating opponents.",
+        "backupComparison": "He narrowly beat out Jo\u00e3o F\u00e9lix by 7.8 points.",
         "bestAlternative": {
-          "player_id": 17,
-          "player_name": "Dani Olmo",
-          "score": 43.4
+          "playerId": 21,
+          "playerName": "Jo\u00e3o F\u00e9lix",
+          "score": 42.9,
+          "naturalPosition": "LW",
+          "compatFactor": 1.0
         },
-        "scoreGap": 20.6,
+        "scoreGap": 7.800000000000004,
         "selectionReasons": [
           {
-            "stat": "goals",
-            "description": "goal scoring",
-            "value": 0.26,
-            "contribution": 12.8,
+            "stat": "key_passes",
+            "description": "creating chances",
+            "value": 0.32,
+            "contribution": 12.5,
             "normalized": 64.1
           },
           {
             "stat": "dribbles",
             "description": "beating opponents",
-            "value": 4.09,
-            "contribution": 11.5,
+            "value": 0.7,
+            "contribution": 12.5,
             "normalized": 64.1
           },
           {
-            "stat": "recent_form_score",
-            "description": "recent form",
-            "value": 89.6,
-            "contribution": 10.8,
-            "normalized": 89.6
+            "stat": "assists",
+            "description": "creating goals for teammates",
+            "value": 0.05,
+            "contribution": 11.2,
+            "normalized": 64.1
           }
         ],
         "positionDescription": "Left Winger - Attacks from the left, cuts inside or crosses"
@@ -467,35 +487,30 @@
         "position": "ST",
         "naturalPosition": "ST",
         "isNaturalPosition": true,
-        "overallScore": 68.4,
+        "overallScore": 45.8,
         "fitness": 88.2,
         "recentForm": 84.0,
         "minutes": 2610,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Robert Lewandowski starts at ST as the top-rated option, excelling in goal scoring and shooting accuracy.",
-        "backupComparison": "He was the clear choice, outperforming Dani Olmo by 39.1 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Robert Lewandowski starts at ST as the top-rated option, excelling in goal scoring and recent form.",
+        "backupComparison": "He narrowly beat out Marc Guiu by 7.9 points.",
         "bestAlternative": {
-          "player_id": 17,
-          "player_name": "Dani Olmo",
-          "score": 29.3
+          "playerId": 24,
+          "playerName": "Marc Guiu",
+          "score": 37.9,
+          "naturalPosition": "ST",
+          "compatFactor": 1.0
         },
-        "scoreGap": 39.10000000000001,
+        "scoreGap": 7.899999999999999,
         "selectionReasons": [
           {
             "stat": "goals",
             "description": "goal scoring",
-            "value": 0.82,
-            "contribution": 19.2,
-            "normalized": 64.1
-          },
-          {
-            "stat": "shots_on_target",
-            "description": "shooting accuracy",
-            "value": 2.18,
-            "contribution": 11.5,
-            "normalized": 64.1
+            "value": 0.03,
+            "contribution": 10.8,
+            "normalized": 35.9
           },
           {
             "stat": "recent_form_score",
@@ -503,6 +518,13 @@
             "value": 84.0,
             "contribution": 10.1,
             "normalized": 84.0
+          },
+          {
+            "stat": "fitness_indicator",
+            "description": "fitness level",
+            "value": 88.2,
+            "contribution": 7.1,
+            "normalized": 88.2
           }
         ],
         "positionDescription": "Striker - Primary goal scorer"
@@ -521,13 +543,15 @@
         "minutes": 2520,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
+        "totalCandidates": 2,
         "selectionSentence": "Marc-Andr\u00e9 ter Stegen starts at GK as the top-rated option, excelling in passing accuracy and shot stopping.",
         "backupComparison": "He was the clear choice, outperforming I\u00f1aki Pe\u00f1a by 31.1 points.",
         "bestAlternative": {
-          "player_id": 2,
-          "player_name": "I\u00f1aki Pe\u00f1a",
-          "score": 40.0
+          "playerId": 2,
+          "playerName": "I\u00f1aki Pe\u00f1a",
+          "score": 40.0,
+          "naturalPosition": "GK",
+          "compatFactor": 1.0
         },
         "scoreGap": 31.099999999999994,
         "selectionReasons": [
@@ -556,45 +580,47 @@
         "positionDescription": "Goalkeeper - Last line of defense, responsible for shot stopping"
       },
       {
-        "playerId": 3,
-        "playerName": "Jules Kound\u00e9",
+        "playerId": 4,
+        "playerName": "Jo\u00e3o Cancelo",
         "position": "RB",
         "naturalPosition": "RB",
         "isNaturalPosition": true,
-        "overallScore": 65.1,
-        "fitness": 89.8,
-        "recentForm": 84.4,
-        "minutes": 2880,
+        "overallScore": 71.6,
+        "fitness": 73.4,
+        "recentForm": 89.1,
+        "minutes": 1620,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Jules Kound\u00e9 starts at RB as the top-rated option, excelling in creating chances and passing accuracy.",
-        "backupComparison": "It was a tight race with Alejandro Balde (only 2.7 points ahead).",
+        "totalCandidates": 4,
+        "selectionSentence": "Jo\u00e3o Cancelo starts at RB as the top-rated option, excelling in creating chances and passing accuracy.",
+        "backupComparison": "He had a solid edge over Marcos Alonso (11.0 points higher).",
         "bestAlternative": {
-          "player_id": 9,
-          "player_name": "Alejandro Balde",
-          "score": 62.4
+          "playerId": 10,
+          "playerName": "Marcos Alonso",
+          "score": 60.6,
+          "naturalPosition": "LB",
+          "compatFactor": 0.84
         },
-        "scoreGap": 2.6999999999999957,
+        "scoreGap": 10.999999999999993,
         "selectionReasons": [
           {
             "stat": "key_passes",
             "description": "creating chances",
-            "value": 1.37,
+            "value": 0.07,
             "contribution": 14.3,
             "normalized": 64.1
           },
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 99.93,
-            "contribution": 13.9,
-            "normalized": 99.9
+            "value": 97.83,
+            "contribution": 13.6,
+            "normalized": 97.8
           },
           {
             "stat": "dribbles",
             "description": "beating opponents",
-            "value": 1.65,
+            "value": 0.09,
             "contribution": 11.3,
             "normalized": 64.1
           }
@@ -602,93 +628,97 @@
         "positionDescription": "Right Back - Defends the right flank and supports attacks"
       },
       {
-        "playerId": 5,
-        "playerName": "Ronald Ara\u00fajo",
+        "playerId": 8,
+        "playerName": "Pau Cubars\u00ed",
         "position": "CB_1",
         "naturalPosition": "CB",
         "isNaturalPosition": true,
-        "overallScore": 84.4,
-        "fitness": 96.8,
-        "recentForm": 80.5,
-        "minutes": 2160,
+        "overallScore": 63.2,
+        "fitness": 74.7,
+        "recentForm": 42.2,
+        "minutes": 540,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Ronald Ara\u00fajo starts at CB as the top-rated option, excelling in passing accuracy and reading the game.",
-        "backupComparison": "He was the clear choice, outperforming Andreas Christensen by 19.0 points.",
+        "totalCandidates": 6,
+        "selectionSentence": "Pau Cubars\u00ed starts at CB as the top-rated option, excelling in passing accuracy and reading the game.",
+        "backupComparison": "It was a tight race with I\u00f1igo Mart\u00ednez (only 1.3 points ahead).",
         "bestAlternative": {
-          "player_id": 6,
-          "player_name": "Andreas Christensen",
-          "score": 65.4
+          "playerId": 7,
+          "playerName": "I\u00f1igo Mart\u00ednez",
+          "score": 61.9,
+          "naturalPosition": "CB",
+          "compatFactor": 1.0
         },
-        "scoreGap": 19.0,
+        "scoreGap": 1.3000000000000043,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 23.3,
-            "normalized": 100.0
+            "value": 95.84,
+            "contribution": 22.3,
+            "normalized": 95.8
           },
           {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 4.09,
-            "contribution": 12.9,
-            "normalized": 73.7
+            "value": 0.57,
+            "contribution": 13.9,
+            "normalized": 79.3
           },
           {
             "stat": "aerial_duels_won",
             "description": "aerial ability",
-            "value": 4.55,
-            "contribution": 12.1,
-            "normalized": 77.6
+            "value": 0.59,
+            "contribution": 12.3,
+            "normalized": 79.5
           }
         ],
         "positionDescription": "Center Back - Central defender who wins aerial duels"
       },
       {
-        "playerId": 6,
-        "playerName": "Andreas Christensen",
+        "playerId": 7,
+        "playerName": "I\u00f1igo Mart\u00ednez",
         "position": "CB_2",
         "naturalPosition": "CB",
         "isNaturalPosition": true,
-        "overallScore": 65.4,
-        "fitness": 73.7,
-        "recentForm": 88.2,
-        "minutes": 1980,
+        "overallScore": 61.9,
+        "fitness": 77.1,
+        "recentForm": 81.6,
+        "minutes": 1080,
         "compatFactor": 1.0,
         "rankForPosition": 2,
-        "totalCandidates": 24,
-        "selectionSentence": "Andreas Christensen starts at CB as the second-best option, excelling in passing accuracy and reading the game.",
-        "backupComparison": "Interestingly, Ronald Ara\u00fajo actually scored higher for this position.",
+        "totalCandidates": 6,
+        "selectionSentence": "I\u00f1igo Mart\u00ednez starts at CB as the second-best option, excelling in passing accuracy and reading the game.",
+        "backupComparison": "Interestingly, Pau Cubars\u00ed actually scored higher for this position.",
         "bestAlternative": {
-          "player_id": 5,
-          "player_name": "Ronald Ara\u00fajo",
-          "score": 84.4
+          "playerId": 8,
+          "playerName": "Pau Cubars\u00ed",
+          "score": 63.2,
+          "naturalPosition": "CB",
+          "compatFactor": 1.0
         },
-        "scoreGap": -19.0,
+        "scoreGap": -1.3000000000000043,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 23.3,
-            "normalized": 100.0
+            "value": 86.18,
+            "contribution": 20.1,
+            "normalized": 86.2
           },
           {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 3.72,
-            "contribution": 9.9,
-            "normalized": 56.4
+            "value": 0.26,
+            "contribution": 8.1,
+            "normalized": 46.3
           },
           {
             "stat": "recent_form_score",
             "description": "recent form",
-            "value": 88.2,
-            "contribution": 8.6,
-            "normalized": 88.2
+            "value": 81.6,
+            "contribution": 7.9,
+            "normalized": 81.6
           }
         ],
         "positionDescription": "Center Back - Central defender who wins aerial duels"
@@ -699,29 +729,24 @@
         "position": "LB",
         "naturalPosition": "LB",
         "isNaturalPosition": true,
-        "overallScore": 72.8,
+        "overallScore": 52.1,
         "fitness": 93.1,
         "recentForm": 92.9,
         "minutes": 2340,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Alejandro Balde starts at LB as the top-rated option, excelling in creating chances and passing accuracy.",
-        "backupComparison": "He was the clear choice, outperforming Jules Kound\u00e9 by 15.3 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Alejandro Balde starts at LB as the top-rated option, excelling in passing accuracy and recent form.",
+        "backupComparison": "It was a tight race with Marcos Alonso (only 0.6 points ahead).",
         "bestAlternative": {
-          "player_id": 3,
-          "player_name": "Jules Kound\u00e9",
-          "score": 57.5
+          "playerId": 10,
+          "playerName": "Marcos Alonso",
+          "score": 51.5,
+          "naturalPosition": "LB",
+          "compatFactor": 1.0
         },
-        "scoreGap": 15.299999999999997,
+        "scoreGap": 0.6000000000000014,
         "selectionReasons": [
-          {
-            "stat": "key_passes",
-            "description": "creating chances",
-            "value": 1.82,
-            "contribution": 14.3,
-            "normalized": 64.1
-          },
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
@@ -730,55 +755,64 @@
             "normalized": 100.0
           },
           {
-            "stat": "dribbles",
-            "description": "beating opponents",
-            "value": 2.01,
-            "contribution": 12.5,
-            "normalized": 64.1
+            "stat": "recent_form_score",
+            "description": "recent form",
+            "value": 92.9,
+            "contribution": 8.6,
+            "normalized": 92.9
+          },
+          {
+            "stat": "key_passes",
+            "description": "creating chances",
+            "value": 0.07,
+            "contribution": 8.0,
+            "normalized": 35.9
           }
         ],
         "positionDescription": "Left Back - Defends the left flank and supports attacks"
       },
       {
-        "playerId": 12,
-        "playerName": "Frenkie de Jong",
+        "playerId": 11,
+        "playerName": "Oriol Romeu",
         "position": "DM",
         "naturalPosition": "DM",
         "isNaturalPosition": true,
-        "overallScore": 74.3,
-        "fitness": 75.0,
-        "recentForm": 93.6,
-        "minutes": 1800,
+        "overallScore": 65.9,
+        "fitness": 60.7,
+        "recentForm": 75.5,
+        "minutes": 900,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Frenkie de Jong starts at DM as the top-rated option, excelling in passing accuracy and moving forward.",
-        "backupComparison": "He narrowly beat out Pedri by 6.4 points.",
+        "totalCandidates": 10,
+        "selectionSentence": "Oriol Romeu starts at DM as the top-rated option, excelling in moving forward and passing accuracy.",
+        "backupComparison": "It was a tight race with Gavi (only 1.6 points ahead).",
         "bestAlternative": {
-          "player_id": 14,
-          "player_name": "Pedri",
-          "score": 67.9
+          "playerId": 16,
+          "playerName": "Gavi",
+          "score": 64.3,
+          "naturalPosition": "CM",
+          "compatFactor": 0.84
         },
-        "scoreGap": 6.3999999999999915,
+        "scoreGap": 1.6000000000000085,
         "selectionReasons": [
-          {
-            "stat": "pass_accuracy",
-            "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 18.5,
-            "normalized": 100.0
-          },
           {
             "stat": "progressive_passes",
             "description": "moving forward",
-            "value": 5.98,
+            "value": 0.41,
             "contribution": 13.1,
             "normalized": 64.1
           },
           {
+            "stat": "pass_accuracy",
+            "description": "passing accuracy",
+            "value": 69.33,
+            "contribution": 12.8,
+            "normalized": 69.3
+          },
+          {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 3.14,
+            "value": 0.17,
             "contribution": 10.7,
             "normalized": 64.1
           }
@@ -786,26 +820,28 @@
         "positionDescription": "Defensive Midfielder - Shields the defense, breaks up attacks"
       },
       {
-        "playerId": 14,
-        "playerName": "Pedri",
+        "playerId": 16,
+        "playerName": "Gavi",
         "position": "CM_1",
         "naturalPosition": "CM",
         "isNaturalPosition": true,
-        "overallScore": 77.6,
-        "fitness": 96.2,
-        "recentForm": 92.3,
-        "minutes": 2160,
+        "overallScore": 68.2,
+        "fitness": 70.7,
+        "recentForm": 70.7,
+        "minutes": 1080,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Pedri starts at CM as the top-rated option, excelling in passing accuracy and creating chances.",
-        "backupComparison": "He narrowly beat out \u0130lkay G\u00fcndo\u011fan by 6.3 points.",
+        "totalCandidates": 8,
+        "selectionSentence": "Gavi starts at CM as the top-rated option, excelling in passing accuracy and creating chances.",
+        "backupComparison": "He had a solid edge over Ferm\u00edn L\u00f3pez (8.2 points higher).",
         "bestAlternative": {
-          "player_id": 13,
-          "player_name": "\u0130lkay G\u00fcndo\u011fan",
-          "score": 71.3
+          "playerId": 15,
+          "playerName": "Ferm\u00edn L\u00f3pez",
+          "score": 60.0,
+          "naturalPosition": "CM",
+          "compatFactor": 1.0
         },
-        "scoreGap": 6.299999999999997,
+        "scoreGap": 8.200000000000003,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
@@ -817,62 +853,64 @@
           {
             "stat": "key_passes",
             "description": "creating chances",
-            "value": 2.28,
-            "contribution": 17.2,
-            "normalized": 71.4
+            "value": 0.17,
+            "contribution": 14.5,
+            "normalized": 60.1
           },
           {
             "stat": "progressive_passes",
             "description": "moving forward",
-            "value": 8.86,
-            "contribution": 12.9,
-            "normalized": 66.5
+            "value": 0.58,
+            "contribution": 10.5,
+            "normalized": 54.2
           }
         ],
         "positionDescription": "Central Midfielder - Controls tempo, links defense and attack"
       },
       {
-        "playerId": 13,
-        "playerName": "\u0130lkay G\u00fcndo\u011fan",
+        "playerId": 15,
+        "playerName": "Ferm\u00edn L\u00f3pez",
         "position": "CM_2",
         "naturalPosition": "CM",
         "isNaturalPosition": true,
-        "overallScore": 71.3,
-        "fitness": 87.4,
-        "recentForm": 92.1,
-        "minutes": 2700,
+        "overallScore": 60.0,
+        "fitness": 58.1,
+        "recentForm": 68.3,
+        "minutes": 720,
         "compatFactor": 1.0,
         "rankForPosition": 2,
-        "totalCandidates": 24,
-        "selectionSentence": "\u0130lkay G\u00fcndo\u011fan starts at CM as the second-best option, excelling in passing accuracy and moving forward.",
-        "backupComparison": "Interestingly, Pedri actually scored higher for this position.",
+        "totalCandidates": 8,
+        "selectionSentence": "Ferm\u00edn L\u00f3pez starts at CM as the second-best option, excelling in creating chances and passing accuracy.",
+        "backupComparison": "Interestingly, Gavi actually scored higher for this position.",
         "bestAlternative": {
-          "player_id": 14,
-          "player_name": "Pedri",
-          "score": 77.6
+          "playerId": 16,
+          "playerName": "Gavi",
+          "score": 68.2,
+          "naturalPosition": "CM",
+          "compatFactor": 1.0
         },
-        "scoreGap": -6.299999999999997,
+        "scoreGap": -8.200000000000003,
         "selectionReasons": [
+          {
+            "stat": "key_passes",
+            "description": "creating chances",
+            "value": 0.21,
+            "contribution": 17.6,
+            "normalized": 72.9
+          },
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 18.5,
-            "normalized": 100.0
+            "value": 88.3,
+            "contribution": 16.4,
+            "normalized": 88.3
           },
           {
             "stat": "progressive_passes",
             "description": "moving forward",
-            "value": 8.95,
-            "contribution": 13.2,
-            "normalized": 68.1
-          },
-          {
-            "stat": "key_passes",
-            "description": "creating chances",
-            "value": 2.07,
-            "contribution": 12.8,
-            "normalized": 53.2
+            "value": 0.85,
+            "contribution": 14.9,
+            "normalized": 76.4
           }
         ],
         "positionDescription": "Central Midfielder - Controls tempo, links defense and attack"
@@ -883,88 +921,92 @@
         "position": "RW",
         "naturalPosition": "RW",
         "isNaturalPosition": true,
-        "overallScore": 68.3,
+        "overallScore": 55.8,
         "fitness": 90.0,
         "recentForm": 90.4,
         "minutes": 2430,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Lamine Yamal starts at RW as the top-rated option, excelling in goal scoring and beating opponents.",
-        "backupComparison": "He was the clear choice, outperforming Raphinha by 24.8 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Lamine Yamal starts at RW as the top-rated option, excelling in goal scoring and creating chances.",
+        "backupComparison": "It was a tight race with Raphinha (only 0.9 points ahead).",
         "bestAlternative": {
-          "player_id": 20,
-          "player_name": "Raphinha",
-          "score": 43.5
+          "playerId": 20,
+          "playerName": "Raphinha",
+          "score": 54.9,
+          "naturalPosition": "RW",
+          "compatFactor": 1.0
         },
-        "scoreGap": 24.799999999999997,
+        "scoreGap": 0.8999999999999986,
         "selectionReasons": [
           {
             "stat": "goals",
             "description": "goal scoring",
-            "value": 0.48,
-            "contribution": 17.0,
+            "value": 0.02,
+            "contribution": 14.9,
             "normalized": 64.1
           },
           {
-            "stat": "dribbles",
-            "description": "beating opponents",
-            "value": 5.6,
-            "contribution": 13.1,
+            "stat": "key_passes",
+            "description": "creating chances",
+            "value": 0.1,
+            "contribution": 12.2,
             "normalized": 64.1
           },
           {
             "stat": "recent_form_score",
             "description": "recent form",
             "value": 90.4,
-            "contribution": 9.6,
+            "contribution": 7.6,
             "normalized": 90.4
           }
         ],
         "positionDescription": "Right Winger - Attacks from the right, cuts inside or crosses"
       },
       {
-        "playerId": 21,
-        "playerName": "Jo\u00e3o F\u00e9lix",
+        "playerId": 22,
+        "playerName": "Vitor Roque",
         "position": "LW",
         "naturalPosition": "LW",
         "isNaturalPosition": true,
-        "overallScore": 64.0,
-        "fitness": 71.7,
-        "recentForm": 89.6,
-        "minutes": 1890,
+        "overallScore": 50.8,
+        "fitness": 55.9,
+        "recentForm": 61.4,
+        "minutes": 450,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Jo\u00e3o F\u00e9lix starts at LW as the top-rated option, excelling in goal scoring and beating opponents.",
-        "backupComparison": "He was the clear choice, outperforming Dani Olmo by 21.3 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Vitor Roque starts at LW as the top-rated option, excelling in beating opponents and goal scoring.",
+        "backupComparison": "He had a solid edge over Jo\u00e3o F\u00e9lix (8.8 points higher).",
         "bestAlternative": {
-          "player_id": 17,
-          "player_name": "Dani Olmo",
-          "score": 42.7
+          "playerId": 21,
+          "playerName": "Jo\u00e3o F\u00e9lix",
+          "score": 42.0,
+          "naturalPosition": "LW",
+          "compatFactor": 1.0
         },
-        "scoreGap": 21.299999999999997,
+        "scoreGap": 8.799999999999997,
         "selectionReasons": [
-          {
-            "stat": "goals",
-            "description": "goal scoring",
-            "value": 0.26,
-            "contribution": 15.9,
-            "normalized": 64.1
-          },
           {
             "stat": "dribbles",
             "description": "beating opponents",
-            "value": 4.09,
-            "contribution": 13.1,
+            "value": 0.7,
+            "contribution": 14.1,
             "normalized": 64.1
           },
           {
-            "stat": "recent_form_score",
-            "description": "recent form",
-            "value": 89.6,
-            "contribution": 9.5,
-            "normalized": 89.6
+            "stat": "goals",
+            "description": "goal scoring",
+            "value": 0.04,
+            "contribution": 13.4,
+            "normalized": 64.1
+          },
+          {
+            "stat": "key_passes",
+            "description": "creating chances",
+            "value": 0.32,
+            "contribution": 11.0,
+            "normalized": 64.1
           }
         ],
         "positionDescription": "Left Winger - Attacks from the left, cuts inside or crosses"
@@ -975,35 +1017,30 @@
         "position": "ST",
         "naturalPosition": "ST",
         "isNaturalPosition": true,
-        "overallScore": 68.0,
+        "overallScore": 44.7,
         "fitness": 88.2,
         "recentForm": 84.0,
         "minutes": 2610,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Robert Lewandowski starts at ST as the top-rated option, excelling in goal scoring and shooting accuracy.",
-        "backupComparison": "He was the clear choice, outperforming Dani Olmo by 41.7 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Robert Lewandowski starts at ST as the top-rated option, excelling in goal scoring and recent form.",
+        "backupComparison": "He narrowly beat out Marc Guiu by 6.7 points.",
         "bestAlternative": {
-          "player_id": 17,
-          "player_name": "Dani Olmo",
-          "score": 26.3
+          "playerId": 24,
+          "playerName": "Marc Guiu",
+          "score": 38.0,
+          "naturalPosition": "ST",
+          "compatFactor": 1.0
         },
-        "scoreGap": 41.7,
+        "scoreGap": 6.700000000000003,
         "selectionReasons": [
           {
             "stat": "goals",
             "description": "goal scoring",
-            "value": 0.82,
-            "contribution": 21.6,
-            "normalized": 64.1
-          },
-          {
-            "stat": "shots_on_target",
-            "description": "shooting accuracy",
-            "value": 2.18,
-            "contribution": 13.1,
-            "normalized": 64.1
+            "value": 0.03,
+            "contribution": 12.1,
+            "normalized": 35.9
           },
           {
             "stat": "recent_form_score",
@@ -1011,6 +1048,13 @@
             "value": 84.0,
             "contribution": 8.9,
             "normalized": 84.0
+          },
+          {
+            "stat": "shots_on_target",
+            "description": "shooting accuracy",
+            "value": 0.08,
+            "contribution": 7.3,
+            "normalized": 35.9
           }
         ],
         "positionDescription": "Striker - Primary goal scorer"
@@ -1029,13 +1073,15 @@
         "minutes": 2520,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
+        "totalCandidates": 2,
         "selectionSentence": "Marc-Andr\u00e9 ter Stegen starts at GK as the top-rated option, excelling in preventing goals and passing accuracy.",
         "backupComparison": "He was the clear choice, outperforming I\u00f1aki Pe\u00f1a by 31.4 points.",
         "bestAlternative": {
-          "player_id": 2,
-          "player_name": "I\u00f1aki Pe\u00f1a",
-          "score": 37.5
+          "playerId": 2,
+          "playerName": "I\u00f1aki Pe\u00f1a",
+          "score": 37.5,
+          "naturalPosition": "GK",
+          "compatFactor": 1.0
         },
         "scoreGap": 31.400000000000006,
         "selectionReasons": [
@@ -1069,26 +1115,28 @@
         "position": "RB",
         "naturalPosition": "RB",
         "isNaturalPosition": true,
-        "overallScore": 62.9,
+        "overallScore": 71.6,
         "fitness": 73.4,
         "recentForm": 89.1,
         "minutes": 1620,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
+        "totalCandidates": 4,
         "selectionSentence": "Jo\u00e3o Cancelo starts at RB as the top-rated option, excelling in winning the ball and passing accuracy.",
-        "backupComparison": "It was a tight race with Jules Kound\u00e9 (only 2.5 points ahead).",
+        "backupComparison": "He had a solid edge over Marcos Alonso (11.0 points higher).",
         "bestAlternative": {
-          "player_id": 3,
-          "player_name": "Jules Kound\u00e9",
-          "score": 60.4
+          "playerId": 10,
+          "playerName": "Marcos Alonso",
+          "score": 60.6,
+          "naturalPosition": "LB",
+          "compatFactor": 0.84
         },
-        "scoreGap": 2.5,
+        "scoreGap": 10.999999999999993,
         "selectionReasons": [
           {
             "stat": "tackles",
             "description": "winning the ball",
-            "value": 3.14,
+            "value": 0.17,
             "contribution": 15.4,
             "normalized": 64.1
           },
@@ -1102,7 +1150,7 @@
           {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 2.04,
+            "value": 0.11,
             "contribution": 11.3,
             "normalized": 64.1
           }
@@ -1110,93 +1158,97 @@
         "positionDescription": "Right Back - Defends the right flank and supports attacks"
       },
       {
-        "playerId": 5,
-        "playerName": "Ronald Ara\u00fajo",
+        "playerId": 8,
+        "playerName": "Pau Cubars\u00ed",
         "position": "CB_1",
         "naturalPosition": "CB",
         "isNaturalPosition": true,
-        "overallScore": 82.0,
-        "fitness": 96.8,
-        "recentForm": 80.5,
-        "minutes": 2160,
+        "overallScore": 62.3,
+        "fitness": 74.7,
+        "recentForm": 42.2,
+        "minutes": 540,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Ronald Ara\u00fajo starts at CB as the top-rated option, excelling in defensive clearances and reading the game.",
-        "backupComparison": "He was the clear choice, outperforming Andreas Christensen by 22.4 points.",
+        "totalCandidates": 6,
+        "selectionSentence": "Pau Cubars\u00ed starts at CB as the top-rated option, excelling in defensive clearances and reading the game.",
+        "backupComparison": "He narrowly beat out I\u00f1igo Mart\u00ednez by 4.9 points.",
         "bestAlternative": {
-          "player_id": 6,
-          "player_name": "Andreas Christensen",
-          "score": 59.6
+          "playerId": 7,
+          "playerName": "I\u00f1igo Mart\u00ednez",
+          "score": 57.4,
+          "naturalPosition": "CB",
+          "compatFactor": 1.0
         },
-        "scoreGap": 22.4,
+        "scoreGap": 4.899999999999999,
         "selectionReasons": [
           {
             "stat": "clearances",
             "description": "defensive clearances",
-            "value": 4.98,
-            "contribution": 17.4,
-            "normalized": 79.0
+            "value": 0.59,
+            "contribution": 17.3,
+            "normalized": 78.6
           },
           {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 4.09,
-            "contribution": 14.4,
-            "normalized": 73.7
+            "value": 0.57,
+            "contribution": 15.5,
+            "normalized": 79.3
           },
           {
             "stat": "aerial_duels_won",
             "description": "aerial ability",
-            "value": 4.55,
-            "contribution": 13.8,
-            "normalized": 77.6
+            "value": 0.59,
+            "contribution": 14.1,
+            "normalized": 79.5
           }
         ],
         "positionDescription": "Center Back - Central defender who wins aerial duels"
       },
       {
-        "playerId": 6,
-        "playerName": "Andreas Christensen",
+        "playerId": 7,
+        "playerName": "I\u00f1igo Mart\u00ednez",
         "position": "CB_2",
         "naturalPosition": "CB",
         "isNaturalPosition": true,
-        "overallScore": 59.6,
-        "fitness": 73.7,
-        "recentForm": 88.2,
-        "minutes": 1980,
+        "overallScore": 57.4,
+        "fitness": 77.1,
+        "recentForm": 81.6,
+        "minutes": 1080,
         "compatFactor": 1.0,
         "rankForPosition": 2,
-        "totalCandidates": 24,
-        "selectionSentence": "Andreas Christensen starts at CB as the second-best option, excelling in passing accuracy and reading the game.",
-        "backupComparison": "Interestingly, Ronald Ara\u00fajo actually scored higher for this position.",
+        "totalCandidates": 6,
+        "selectionSentence": "I\u00f1igo Mart\u00ednez starts at CB as the second-best option, excelling in passing accuracy and defensive clearances.",
+        "backupComparison": "Interestingly, Pau Cubars\u00ed actually scored higher for this position.",
         "bestAlternative": {
-          "player_id": 5,
-          "player_name": "Ronald Ara\u00fajo",
-          "score": 82.0
+          "playerId": 8,
+          "playerName": "Pau Cubars\u00ed",
+          "score": 62.3,
+          "naturalPosition": "CB",
+          "compatFactor": 1.0
         },
-        "scoreGap": -22.4,
+        "scoreGap": -4.899999999999999,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 13.6,
-            "normalized": 100.0
-          },
-          {
-            "stat": "interceptions",
-            "description": "reading the game",
-            "value": 3.72,
-            "contribution": 11.0,
-            "normalized": 56.4
+            "value": 86.18,
+            "contribution": 11.7,
+            "normalized": 86.2
           },
           {
             "stat": "clearances",
             "description": "defensive clearances",
-            "value": 3.96,
-            "contribution": 10.3,
-            "normalized": 46.6
+            "value": 0.31,
+            "contribution": 10.8,
+            "normalized": 48.9
+          },
+          {
+            "stat": "interceptions",
+            "description": "reading the game",
+            "value": 0.26,
+            "contribution": 9.0,
+            "normalized": 46.3
           }
         ],
         "positionDescription": "Center Back - Central defender who wins aerial duels"
@@ -1207,29 +1259,24 @@
         "position": "LB",
         "naturalPosition": "LB",
         "isNaturalPosition": true,
-        "overallScore": 72.8,
+        "overallScore": 52.1,
         "fitness": 93.1,
         "recentForm": 92.9,
         "minutes": 2340,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Alejandro Balde starts at LB as the top-rated option, excelling in winning the ball and passing accuracy.",
-        "backupComparison": "He had a solid edge over Jules Kound\u00e9 (11.4 points higher).",
+        "totalCandidates": 4,
+        "selectionSentence": "Alejandro Balde starts at LB as the top-rated option, excelling in passing accuracy and winning the ball.",
+        "backupComparison": "It was a tight race with Marcos Alonso (only 0.6 points ahead).",
         "bestAlternative": {
-          "player_id": 3,
-          "player_name": "Jules Kound\u00e9",
-          "score": 61.4
+          "playerId": 10,
+          "playerName": "Marcos Alonso",
+          "score": 51.5,
+          "naturalPosition": "LB",
+          "compatFactor": 1.0
         },
-        "scoreGap": 11.399999999999999,
+        "scoreGap": 0.6000000000000014,
         "selectionReasons": [
-          {
-            "stat": "tackles",
-            "description": "winning the ball",
-            "value": 2.52,
-            "contribution": 15.4,
-            "normalized": 64.1
-          },
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
@@ -1238,82 +1285,93 @@
             "normalized": 100.0
           },
           {
-            "stat": "interceptions",
-            "description": "reading the game",
-            "value": 2.01,
-            "contribution": 10.1,
-            "normalized": 64.1
+            "stat": "tackles",
+            "description": "winning the ball",
+            "value": 0.1,
+            "contribution": 8.6,
+            "normalized": 35.9
+          },
+          {
+            "stat": "recent_form_score",
+            "description": "recent form",
+            "value": 92.9,
+            "contribution": 8.6,
+            "normalized": 92.9
           }
         ],
         "positionDescription": "Left Back - Defends the left flank and supports attacks"
       },
       {
-        "playerId": 12,
-        "playerName": "Frenkie de Jong",
+        "playerId": 11,
+        "playerName": "Oriol Romeu",
         "position": "DM",
         "naturalPosition": "DM",
         "isNaturalPosition": true,
-        "overallScore": 73.7,
-        "fitness": 75.0,
-        "recentForm": 93.6,
-        "minutes": 1800,
+        "overallScore": 65.8,
+        "fitness": 60.7,
+        "recentForm": 75.5,
+        "minutes": 900,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Frenkie de Jong starts at DM as the top-rated option, excelling in winning the ball and passing accuracy.",
-        "backupComparison": "He was the clear choice, outperforming Pedri by 15.1 points.",
+        "totalCandidates": 10,
+        "selectionSentence": "Oriol Romeu starts at DM as the top-rated option, excelling in winning the ball and reading the game.",
+        "backupComparison": "He narrowly beat out Ferm\u00edn L\u00f3pez by 7.1 points.",
         "bestAlternative": {
-          "player_id": 14,
-          "player_name": "Pedri",
-          "score": 58.6
+          "playerId": 15,
+          "playerName": "Ferm\u00edn L\u00f3pez",
+          "score": 58.7,
+          "naturalPosition": "CM",
+          "compatFactor": 0.84
         },
-        "scoreGap": 15.100000000000001,
+        "scoreGap": 7.099999999999994,
         "selectionReasons": [
           {
             "stat": "tackles",
             "description": "winning the ball",
-            "value": 4.13,
+            "value": 0.23,
             "contribution": 19.0,
+            "normalized": 64.1
+          },
+          {
+            "stat": "interceptions",
+            "description": "reading the game",
+            "value": 0.17,
+            "contribution": 14.5,
             "normalized": 64.1
           },
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 17.4,
-            "normalized": 100.0
-          },
-          {
-            "stat": "interceptions",
-            "description": "reading the game",
-            "value": 3.14,
-            "contribution": 14.5,
-            "normalized": 64.1
+            "value": 69.33,
+            "contribution": 12.1,
+            "normalized": 69.3
           }
         ],
         "positionDescription": "Defensive Midfielder - Shields the defense, breaks up attacks"
       },
       {
-        "playerId": 14,
-        "playerName": "Pedri",
+        "playerId": 16,
+        "playerName": "Gavi",
         "position": "CM_1",
         "naturalPosition": "CM",
         "isNaturalPosition": true,
-        "overallScore": 76.6,
-        "fitness": 96.2,
-        "recentForm": 92.3,
-        "minutes": 2160,
+        "overallScore": 68.8,
+        "fitness": 70.7,
+        "recentForm": 70.7,
+        "minutes": 1080,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Pedri starts at CM as the top-rated option, excelling in passing accuracy and winning the ball.",
-        "backupComparison": "He narrowly beat out \u0130lkay G\u00fcndo\u011fan by 5.3 points.",
+        "totalCandidates": 8,
+        "selectionSentence": "Gavi starts at CM as the top-rated option, excelling in passing accuracy and winning the ball.",
+        "backupComparison": "He had a solid edge over Ferm\u00edn L\u00f3pez (9.1 points higher).",
         "bestAlternative": {
-          "player_id": 13,
-          "player_name": "\u0130lkay G\u00fcndo\u011fan",
-          "score": 71.3
+          "playerId": 15,
+          "playerName": "Ferm\u00edn L\u00f3pez",
+          "score": 59.7,
+          "naturalPosition": "CM",
+          "compatFactor": 1.0
         },
-        "scoreGap": 5.299999999999997,
+        "scoreGap": 9.099999999999994,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
@@ -1325,62 +1383,64 @@
           {
             "stat": "tackles",
             "description": "winning the ball",
-            "value": 2.88,
-            "contribution": 11.0,
-            "normalized": 59.6
+            "value": 0.24,
+            "contribution": 11.6,
+            "normalized": 62.9
           },
           {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 2.1,
-            "contribution": 10.6,
-            "normalized": 76.1
+            "value": 0.15,
+            "contribution": 8.3,
+            "normalized": 59.8
           }
         ],
         "positionDescription": "Central Midfielder - Controls tempo, links defense and attack"
       },
       {
-        "playerId": 13,
-        "playerName": "\u0130lkay G\u00fcndo\u011fan",
+        "playerId": 15,
+        "playerName": "Ferm\u00edn L\u00f3pez",
         "position": "CM_2",
         "naturalPosition": "CM",
         "isNaturalPosition": true,
-        "overallScore": 71.3,
-        "fitness": 87.4,
-        "recentForm": 92.1,
-        "minutes": 2700,
+        "overallScore": 59.7,
+        "fitness": 58.1,
+        "recentForm": 68.3,
+        "minutes": 720,
         "compatFactor": 1.0,
         "rankForPosition": 2,
-        "totalCandidates": 24,
-        "selectionSentence": "\u0130lkay G\u00fcndo\u011fan starts at CM as the second-best option, excelling in passing accuracy and winning the ball.",
-        "backupComparison": "Interestingly, Pedri actually scored higher for this position.",
+        "totalCandidates": 8,
+        "selectionSentence": "Ferm\u00edn L\u00f3pez starts at CM as the second-best option, excelling in passing accuracy and winning the ball.",
+        "backupComparison": "Interestingly, Gavi actually scored higher for this position.",
         "bestAlternative": {
-          "player_id": 14,
-          "player_name": "Pedri",
-          "score": 76.6
+          "playerId": 16,
+          "playerName": "Gavi",
+          "score": 68.8,
+          "naturalPosition": "CM",
+          "compatFactor": 1.0
         },
-        "scoreGap": -5.299999999999997,
+        "scoreGap": -9.099999999999994,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 18.5,
-            "normalized": 100.0
+            "value": 88.3,
+            "contribution": 16.4,
+            "normalized": 88.3
           },
           {
             "stat": "tackles",
             "description": "winning the ball",
-            "value": 2.91,
-            "contribution": 11.4,
-            "normalized": 61.3
+            "value": 0.28,
+            "contribution": 13.2,
+            "normalized": 71.1
           },
           {
             "stat": "progressive_passes",
             "description": "moving forward",
-            "value": 8.95,
-            "contribution": 10.1,
-            "normalized": 68.1
+            "value": 0.85,
+            "contribution": 11.3,
+            "normalized": 76.4
           }
         ],
         "positionDescription": "Central Midfielder - Controls tempo, links defense and attack"
@@ -1391,87 +1451,91 @@
         "position": "RW",
         "naturalPosition": "RW",
         "isNaturalPosition": true,
-        "overallScore": 69.1,
+        "overallScore": 57.5,
         "fitness": 90.0,
         "recentForm": 90.4,
         "minutes": 2430,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Lamine Yamal starts at RW as the top-rated option, excelling in goal scoring and recent form.",
-        "backupComparison": "He was the clear choice, outperforming Raphinha by 24.2 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Lamine Yamal starts at RW as the top-rated option, excelling in creating chances and goal scoring.",
+        "backupComparison": "It was a tight race with Raphinha (only 1.8 points ahead).",
         "bestAlternative": {
-          "player_id": 20,
-          "player_name": "Raphinha",
-          "score": 44.9
+          "playerId": 20,
+          "playerName": "Raphinha",
+          "score": 55.7,
+          "naturalPosition": "RW",
+          "compatFactor": 1.0
         },
-        "scoreGap": 24.199999999999996,
+        "scoreGap": 1.7999999999999972,
         "selectionReasons": [
+          {
+            "stat": "key_passes",
+            "description": "creating chances",
+            "value": 0.1,
+            "contribution": 15.0,
+            "normalized": 64.1
+          },
           {
             "stat": "goals",
             "description": "goal scoring",
-            "value": 0.48,
-            "contribution": 14.9,
+            "value": 0.02,
+            "contribution": 11.7,
             "normalized": 64.1
           },
           {
             "stat": "recent_form_score",
             "description": "recent form",
             "value": 90.4,
-            "contribution": 11.4,
+            "contribution": 9.4,
             "normalized": 90.4
-          },
-          {
-            "stat": "key_passes",
-            "description": "creating chances",
-            "value": 2.58,
-            "contribution": 10.8,
-            "normalized": 64.1
           }
         ],
         "positionDescription": "Right Winger - Attacks from the right, cuts inside or crosses"
       },
       {
-        "playerId": 21,
-        "playerName": "Jo\u00e3o F\u00e9lix",
+        "playerId": 22,
+        "playerName": "Vitor Roque",
         "position": "LW",
         "naturalPosition": "LW",
         "isNaturalPosition": true,
-        "overallScore": 64.0,
-        "fitness": 71.7,
-        "recentForm": 89.6,
-        "minutes": 1890,
+        "overallScore": 50.7,
+        "fitness": 55.9,
+        "recentForm": 61.4,
+        "minutes": 450,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Jo\u00e3o F\u00e9lix starts at LW as the top-rated option, excelling in goal scoring and recent form.",
-        "backupComparison": "He was the clear choice, outperforming Dani Olmo by 18.3 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Vitor Roque starts at LW as the top-rated option, excelling in creating chances and creating goals for teammates.",
+        "backupComparison": "He narrowly beat out Jo\u00e3o F\u00e9lix by 7.4 points.",
         "bestAlternative": {
-          "player_id": 17,
-          "player_name": "Dani Olmo",
-          "score": 45.7
+          "playerId": 21,
+          "playerName": "Jo\u00e3o F\u00e9lix",
+          "score": 43.3,
+          "naturalPosition": "LW",
+          "compatFactor": 1.0
         },
-        "scoreGap": 18.299999999999997,
+        "scoreGap": 7.400000000000006,
         "selectionReasons": [
-          {
-            "stat": "goals",
-            "description": "goal scoring",
-            "value": 0.26,
-            "contribution": 13.5,
-            "normalized": 64.1
-          },
-          {
-            "stat": "recent_form_score",
-            "description": "recent form",
-            "value": 89.6,
-            "contribution": 11.3,
-            "normalized": 89.6
-          },
           {
             "stat": "key_passes",
             "description": "creating chances",
-            "value": 2.03,
-            "contribution": 9.5,
+            "value": 0.32,
+            "contribution": 13.3,
+            "normalized": 64.1
+          },
+          {
+            "stat": "assists",
+            "description": "creating goals for teammates",
+            "value": 0.05,
+            "contribution": 11.8,
+            "normalized": 64.1
+          },
+          {
+            "stat": "goals",
+            "description": "goal scoring",
+            "value": 0.04,
+            "contribution": 10.3,
             "normalized": 64.1
           }
         ],
@@ -1483,42 +1547,44 @@
         "position": "ST",
         "naturalPosition": "ST",
         "isNaturalPosition": true,
-        "overallScore": 68.3,
+        "overallScore": 45.5,
         "fitness": 88.2,
         "recentForm": 84.0,
         "minutes": 2610,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Robert Lewandowski starts at ST as the top-rated option, excelling in goal scoring and aerial ability.",
-        "backupComparison": "He was the clear choice, outperforming Dani Olmo by 40.1 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Robert Lewandowski starts at ST as the top-rated option, excelling in recent form and goal scoring.",
+        "backupComparison": "He narrowly beat out Marc Guiu by 7.6 points.",
         "bestAlternative": {
-          "player_id": 17,
-          "player_name": "Dani Olmo",
-          "score": 28.2
+          "playerId": 24,
+          "playerName": "Marc Guiu",
+          "score": 37.9,
+          "naturalPosition": "ST",
+          "compatFactor": 1.0
         },
-        "scoreGap": 40.099999999999994,
+        "scoreGap": 7.600000000000001,
         "selectionReasons": [
+          {
+            "stat": "recent_form_score",
+            "description": "recent form",
+            "value": 84.0,
+            "contribution": 9.8,
+            "normalized": 84.0
+          },
           {
             "stat": "goals",
             "description": "goal scoring",
-            "value": 0.82,
-            "contribution": 15.6,
-            "normalized": 64.1
+            "value": 0.03,
+            "contribution": 8.7,
+            "normalized": 35.9
           },
           {
             "stat": "aerial_duels_won",
             "description": "aerial ability",
-            "value": 3.15,
-            "contribution": 12.5,
-            "normalized": 64.1
-          },
-          {
-            "stat": "shots_on_target",
-            "description": "shooting accuracy",
-            "value": 2.18,
-            "contribution": 11.2,
-            "normalized": 64.1
+            "value": 0.11,
+            "contribution": 7.0,
+            "normalized": 35.9
           }
         ],
         "positionDescription": "Striker - Primary goal scorer"
@@ -1539,13 +1605,15 @@
         "minutes": 2520,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
+        "totalCandidates": 2,
         "selectionSentence": "Marc-Andr\u00e9 ter Stegen starts at GK as the top-rated option, excelling in passing accuracy and shot stopping.",
         "backupComparison": "He was the clear choice, outperforming I\u00f1aki Pe\u00f1a by 30.8 points.",
         "bestAlternative": {
-          "player_id": 2,
-          "player_name": "I\u00f1aki Pe\u00f1a",
-          "score": 38.7
+          "playerId": 2,
+          "playerName": "I\u00f1aki Pe\u00f1a",
+          "score": 38.7,
+          "naturalPosition": "GK",
+          "compatFactor": 1.0
         },
         "scoreGap": 30.799999999999997,
         "selectionReasons": [
@@ -1574,139 +1642,145 @@
         "positionDescription": "Goalkeeper - Last line of defense, responsible for shot stopping"
       },
       {
-        "playerId": 3,
-        "playerName": "Jules Kound\u00e9",
+        "playerId": 4,
+        "playerName": "Jo\u00e3o Cancelo",
         "position": "RB",
         "naturalPosition": "RB",
         "isNaturalPosition": true,
-        "overallScore": 63.8,
-        "fitness": 89.8,
-        "recentForm": 84.4,
-        "minutes": 2880,
+        "overallScore": 72.2,
+        "fitness": 73.4,
+        "recentForm": 89.1,
+        "minutes": 1620,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Jules Kound\u00e9 starts at RB as the top-rated option, excelling in passing accuracy and creating chances.",
-        "backupComparison": "It was a tight race with Jo\u00e3o Cancelo (only 2.4 points ahead).",
+        "totalCandidates": 4,
+        "selectionSentence": "Jo\u00e3o Cancelo starts at RB as the top-rated option, excelling in passing accuracy and winning the ball.",
+        "backupComparison": "He had a solid edge over Marcos Alonso (12.1 points higher).",
         "bestAlternative": {
-          "player_id": 4,
-          "player_name": "Jo\u00e3o Cancelo",
-          "score": 61.4
+          "playerId": 10,
+          "playerName": "Marcos Alonso",
+          "score": 60.1,
+          "naturalPosition": "LB",
+          "compatFactor": 0.84
         },
-        "scoreGap": 2.3999999999999986,
+        "scoreGap": 12.100000000000001,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 99.93,
-            "contribution": 15.0,
-            "normalized": 99.9
+            "value": 97.83,
+            "contribution": 14.7,
+            "normalized": 97.8
+          },
+          {
+            "stat": "tackles",
+            "description": "winning the ball",
+            "value": 0.17,
+            "contribution": 11.5,
+            "normalized": 64.1
           },
           {
             "stat": "key_passes",
             "description": "creating chances",
-            "value": 1.37,
+            "value": 0.07,
             "contribution": 10.3,
-            "normalized": 64.1
-          },
-          {
-            "stat": "dribbles",
-            "description": "beating opponents",
-            "value": 1.65,
-            "contribution": 9.0,
             "normalized": 64.1
           }
         ],
         "positionDescription": "Right Back - Defends the right flank and supports attacks"
       },
       {
-        "playerId": 5,
-        "playerName": "Ronald Ara\u00fajo",
+        "playerId": 8,
+        "playerName": "Pau Cubars\u00ed",
         "position": "CB_1",
         "naturalPosition": "CB",
         "isNaturalPosition": true,
-        "overallScore": 82.9,
-        "fitness": 96.8,
-        "recentForm": 80.5,
-        "minutes": 2160,
+        "overallScore": 62.1,
+        "fitness": 74.7,
+        "recentForm": 42.2,
+        "minutes": 540,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Ronald Ara\u00fajo starts at CB as the top-rated option, excelling in passing accuracy and defensive clearances.",
-        "backupComparison": "He was the clear choice, outperforming Andreas Christensen by 21.2 points.",
+        "totalCandidates": 6,
+        "selectionSentence": "Pau Cubars\u00ed starts at CB as the top-rated option, excelling in passing accuracy and reading the game.",
+        "backupComparison": "It was a tight race with I\u00f1igo Mart\u00ednez (only 2.8 points ahead).",
         "bestAlternative": {
-          "player_id": 6,
-          "player_name": "Andreas Christensen",
-          "score": 61.7
+          "playerId": 7,
+          "playerName": "I\u00f1igo Mart\u00ednez",
+          "score": 59.3,
+          "naturalPosition": "CB",
+          "compatFactor": 1.0
         },
-        "scoreGap": 21.200000000000003,
+        "scoreGap": 2.8000000000000043,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 16.0,
-            "normalized": 100.0
-          },
-          {
-            "stat": "clearances",
-            "description": "defensive clearances",
-            "value": 4.98,
-            "contribution": 14.2,
-            "normalized": 79.0
+            "value": 95.84,
+            "contribution": 15.3,
+            "normalized": 95.8
           },
           {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 4.09,
-            "contribution": 13.3,
-            "normalized": 73.7
+            "value": 0.57,
+            "contribution": 14.3,
+            "normalized": 79.3
+          },
+          {
+            "stat": "clearances",
+            "description": "defensive clearances",
+            "value": 0.59,
+            "contribution": 14.1,
+            "normalized": 78.6
           }
         ],
         "positionDescription": "Center Back - Central defender who wins aerial duels"
       },
       {
-        "playerId": 6,
-        "playerName": "Andreas Christensen",
+        "playerId": 7,
+        "playerName": "I\u00f1igo Mart\u00ednez",
         "position": "CB_2",
         "naturalPosition": "CB",
         "isNaturalPosition": true,
-        "overallScore": 61.7,
-        "fitness": 73.7,
-        "recentForm": 88.2,
-        "minutes": 1980,
+        "overallScore": 59.3,
+        "fitness": 77.1,
+        "recentForm": 81.6,
+        "minutes": 1080,
         "compatFactor": 1.0,
         "rankForPosition": 2,
-        "totalCandidates": 24,
-        "selectionSentence": "Andreas Christensen starts at CB as the second-best option, excelling in passing accuracy and reading the game.",
-        "backupComparison": "Interestingly, Ronald Ara\u00fajo actually scored higher for this position.",
+        "totalCandidates": 6,
+        "selectionSentence": "I\u00f1igo Mart\u00ednez starts at CB as the second-best option, excelling in passing accuracy and defensive clearances.",
+        "backupComparison": "Interestingly, Pau Cubars\u00ed actually scored higher for this position.",
         "bestAlternative": {
-          "player_id": 5,
-          "player_name": "Ronald Ara\u00fajo",
-          "score": 82.9
+          "playerId": 8,
+          "playerName": "Pau Cubars\u00ed",
+          "score": 62.1,
+          "naturalPosition": "CB",
+          "compatFactor": 1.0
         },
-        "scoreGap": -21.200000000000003,
+        "scoreGap": -2.8000000000000043,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 16.0,
-            "normalized": 100.0
+            "value": 86.18,
+            "contribution": 13.8,
+            "normalized": 86.2
+          },
+          {
+            "stat": "clearances",
+            "description": "defensive clearances",
+            "value": 0.31,
+            "contribution": 8.8,
+            "normalized": 48.9
           },
           {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 3.72,
-            "contribution": 10.2,
-            "normalized": 56.4
-          },
-          {
-            "stat": "recent_form_score",
-            "description": "recent form",
-            "value": 88.2,
-            "contribution": 8.8,
-            "normalized": 88.2
+            "value": 0.26,
+            "contribution": 8.3,
+            "normalized": 46.3
           }
         ],
         "positionDescription": "Center Back - Central defender who wins aerial duels"
@@ -1717,21 +1791,23 @@
         "position": "LB",
         "naturalPosition": "LB",
         "isNaturalPosition": true,
-        "overallScore": 73.5,
+        "overallScore": 53.4,
         "fitness": 93.1,
         "recentForm": 92.9,
         "minutes": 2340,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Alejandro Balde starts at LB as the top-rated option, excelling in passing accuracy and winning the ball.",
-        "backupComparison": "He had a solid edge over Jules Kound\u00e9 (13.0 points higher).",
+        "totalCandidates": 4,
+        "selectionSentence": "Alejandro Balde starts at LB as the top-rated option, excelling in passing accuracy and recent form.",
+        "backupComparison": "It was a tight race with Marcos Alonso (only 1.9 points ahead).",
         "bestAlternative": {
-          "player_id": 3,
-          "player_name": "Jules Kound\u00e9",
-          "score": 60.5
+          "playerId": 10,
+          "playerName": "Marcos Alonso",
+          "score": 51.5,
+          "naturalPosition": "LB",
+          "compatFactor": 1.0
         },
-        "scoreGap": 13.0,
+        "scoreGap": 1.8999999999999986,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
@@ -1741,62 +1817,64 @@
             "normalized": 100.0
           },
           {
-            "stat": "tackles",
-            "description": "winning the ball",
-            "value": 2.52,
-            "contribution": 11.5,
-            "normalized": 64.1
+            "stat": "recent_form_score",
+            "description": "recent form",
+            "value": 92.9,
+            "contribution": 9.3,
+            "normalized": 92.9
           },
           {
-            "stat": "key_passes",
-            "description": "creating chances",
-            "value": 1.82,
-            "contribution": 10.3,
-            "normalized": 64.1
+            "stat": "tackles",
+            "description": "winning the ball",
+            "value": 0.1,
+            "contribution": 6.5,
+            "normalized": 35.9
           }
         ],
         "positionDescription": "Left Back - Defends the left flank and supports attacks"
       },
       {
-        "playerId": 12,
-        "playerName": "Frenkie de Jong",
+        "playerId": 11,
+        "playerName": "Oriol Romeu",
         "position": "DM_1",
         "naturalPosition": "DM",
         "isNaturalPosition": true,
-        "overallScore": 75.1,
-        "fitness": 75.0,
-        "recentForm": 93.6,
-        "minutes": 1800,
+        "overallScore": 66.0,
+        "fitness": 60.7,
+        "recentForm": 75.5,
+        "minutes": 900,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Frenkie de Jong starts at DM as the top-rated option, excelling in passing accuracy and winning the ball.",
-        "backupComparison": "He had a solid edge over Pedri (10.9 points higher).",
+        "totalCandidates": 10,
+        "selectionSentence": "Oriol Romeu starts at DM as the top-rated option, excelling in winning the ball and passing accuracy.",
+        "backupComparison": "He narrowly beat out Gavi by 4.6 points.",
         "bestAlternative": {
-          "player_id": 14,
-          "player_name": "Pedri",
-          "score": 64.2
+          "playerId": 16,
+          "playerName": "Gavi",
+          "score": 61.4,
+          "naturalPosition": "CM",
+          "compatFactor": 0.84
         },
-        "scoreGap": 10.899999999999991,
+        "scoreGap": 4.600000000000001,
         "selectionReasons": [
-          {
-            "stat": "pass_accuracy",
-            "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 20.0,
-            "normalized": 100.0
-          },
           {
             "stat": "tackles",
             "description": "winning the ball",
-            "value": 4.13,
+            "value": 0.23,
             "contribution": 14.1,
             "normalized": 64.1
           },
           {
+            "stat": "pass_accuracy",
+            "description": "passing accuracy",
+            "value": 69.33,
+            "contribution": 13.9,
+            "normalized": 69.3
+          },
+          {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 3.14,
+            "value": 0.17,
             "contribution": 11.5,
             "normalized": 64.1
           }
@@ -1804,26 +1882,28 @@
         "positionDescription": "Defensive Midfielder - Shields the defense, breaks up attacks"
       },
       {
-        "playerId": 14,
-        "playerName": "Pedri",
+        "playerId": 12,
+        "playerName": "Frenkie de Jong",
         "position": "DM_2",
-        "naturalPosition": "CM",
-        "isNaturalPosition": false,
-        "overallScore": 64.2,
-        "fitness": 96.2,
-        "recentForm": 92.3,
-        "minutes": 2160,
-        "compatFactor": 0.84,
-        "rankForPosition": 2,
-        "totalCandidates": 24,
-        "selectionSentence": "Pedri plays at DM (normally a CM) as the second-best option, excelling in passing accuracy and moving forward.",
-        "backupComparison": "Interestingly, Frenkie de Jong actually scored higher for this position.",
+        "naturalPosition": "DM",
+        "isNaturalPosition": true,
+        "overallScore": 57.6,
+        "fitness": 75.0,
+        "recentForm": 93.6,
+        "minutes": 1800,
+        "compatFactor": 1.0,
+        "rankForPosition": 4,
+        "totalCandidates": 10,
+        "selectionSentence": "Frenkie de Jong starts at DM as the 4th-best option, excelling in passing accuracy and recent form.",
+        "backupComparison": "Interestingly, Oriol Romeu actually scored higher for this position.",
         "bestAlternative": {
-          "player_id": 12,
-          "player_name": "Frenkie de Jong",
-          "score": 75.1
+          "playerId": 11,
+          "playerName": "Oriol Romeu",
+          "score": 66.0,
+          "naturalPosition": "DM",
+          "compatFactor": 1.0
         },
-        "scoreGap": -10.899999999999991,
+        "scoreGap": -8.399999999999999,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
@@ -1833,18 +1913,18 @@
             "normalized": 100.0
           },
           {
-            "stat": "progressive_passes",
-            "description": "moving forward",
-            "value": 8.86,
-            "contribution": 14.0,
-            "normalized": 100.0
+            "stat": "recent_form_score",
+            "description": "recent form",
+            "value": 93.6,
+            "contribution": 9.4,
+            "normalized": 93.6
           },
           {
             "stat": "tackles",
             "description": "winning the ball",
-            "value": 2.88,
-            "contribution": 9.8,
-            "normalized": 44.4
+            "value": 0.21,
+            "contribution": 7.9,
+            "normalized": 35.9
           }
         ],
         "positionDescription": "Defensive Midfielder - Shields the defense, breaks up attacks"
@@ -1855,41 +1935,43 @@
         "position": "RW",
         "naturalPosition": "RW",
         "isNaturalPosition": true,
-        "overallScore": 68.8,
+        "overallScore": 56.2,
         "fitness": 90.0,
         "recentForm": 90.4,
         "minutes": 2430,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Lamine Yamal starts at RW as the top-rated option, excelling in goal scoring and beating opponents.",
-        "backupComparison": "He was the clear choice, outperforming Raphinha by 24.4 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Lamine Yamal starts at RW as the top-rated option, excelling in creating chances and goal scoring.",
+        "backupComparison": "Interestingly, Raphinha actually scored higher for this position.",
         "bestAlternative": {
-          "player_id": 20,
-          "player_name": "Raphinha",
-          "score": 44.4
+          "playerId": 20,
+          "playerName": "Raphinha",
+          "score": 56.2,
+          "naturalPosition": "RW",
+          "compatFactor": 1.0
         },
-        "scoreGap": 24.4,
+        "scoreGap": 0.0,
         "selectionReasons": [
           {
-            "stat": "goals",
-            "description": "goal scoring",
-            "value": 0.48,
+            "stat": "key_passes",
+            "description": "creating chances",
+            "value": 0.1,
             "contribution": 14.1,
             "normalized": 64.1
           },
           {
-            "stat": "dribbles",
-            "description": "beating opponents",
-            "value": 5.6,
-            "contribution": 11.5,
+            "stat": "goals",
+            "description": "goal scoring",
+            "value": 0.02,
+            "contribution": 11.0,
             "normalized": 64.1
           },
           {
             "stat": "recent_form_score",
             "description": "recent form",
             "value": 90.4,
-            "contribution": 10.8,
+            "contribution": 8.8,
             "normalized": 90.4
           }
         ],
@@ -1901,26 +1983,28 @@
         "position": "AM",
         "naturalPosition": "AM",
         "isNaturalPosition": true,
-        "overallScore": 68.7,
+        "overallScore": 66.1,
         "fitness": 74.8,
         "recentForm": 84.7,
         "minutes": 1440,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
+        "totalCandidates": 10,
         "selectionSentence": "Dani Olmo starts at AM as the top-rated option, excelling in creating chances and passing accuracy.",
-        "backupComparison": "He narrowly beat out Lamine Yamal by 3.9 points.",
+        "backupComparison": "He narrowly beat out Vitor Roque by 6.9 points.",
         "bestAlternative": {
-          "player_id": 19,
-          "player_name": "Lamine Yamal",
-          "score": 64.8
+          "playerId": 22,
+          "playerName": "Vitor Roque",
+          "score": 59.2,
+          "naturalPosition": "LW",
+          "compatFactor": 0.84
         },
-        "scoreGap": 3.9000000000000057,
+        "scoreGap": 6.8999999999999915,
         "selectionReasons": [
           {
             "stat": "key_passes",
             "description": "creating chances",
-            "value": 2.94,
+            "value": 0.18,
             "contribution": 15.4,
             "normalized": 64.1
           },
@@ -1942,47 +2026,49 @@
         "positionDescription": "Attacking Midfielder - Creative hub who supplies forwards"
       },
       {
-        "playerId": 21,
-        "playerName": "Jo\u00e3o F\u00e9lix",
+        "playerId": 22,
+        "playerName": "Vitor Roque",
         "position": "LW",
         "naturalPosition": "LW",
         "isNaturalPosition": true,
-        "overallScore": 64.0,
-        "fitness": 71.7,
-        "recentForm": 89.6,
-        "minutes": 1890,
+        "overallScore": 50.7,
+        "fitness": 55.9,
+        "recentForm": 61.4,
+        "minutes": 450,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Jo\u00e3o F\u00e9lix starts at LW as the top-rated option, excelling in goal scoring and beating opponents.",
-        "backupComparison": "He was the clear choice, outperforming Dani Olmo by 20.6 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Vitor Roque starts at LW as the top-rated option, excelling in creating chances and beating opponents.",
+        "backupComparison": "He narrowly beat out Jo\u00e3o F\u00e9lix by 7.8 points.",
         "bestAlternative": {
-          "player_id": 17,
-          "player_name": "Dani Olmo",
-          "score": 43.4
+          "playerId": 21,
+          "playerName": "Jo\u00e3o F\u00e9lix",
+          "score": 42.9,
+          "naturalPosition": "LW",
+          "compatFactor": 1.0
         },
-        "scoreGap": 20.6,
+        "scoreGap": 7.800000000000004,
         "selectionReasons": [
           {
-            "stat": "goals",
-            "description": "goal scoring",
-            "value": 0.26,
-            "contribution": 12.8,
+            "stat": "key_passes",
+            "description": "creating chances",
+            "value": 0.32,
+            "contribution": 12.5,
             "normalized": 64.1
           },
           {
             "stat": "dribbles",
             "description": "beating opponents",
-            "value": 4.09,
-            "contribution": 11.5,
+            "value": 0.7,
+            "contribution": 12.5,
             "normalized": 64.1
           },
           {
-            "stat": "recent_form_score",
-            "description": "recent form",
-            "value": 89.6,
-            "contribution": 10.8,
-            "normalized": 89.6
+            "stat": "assists",
+            "description": "creating goals for teammates",
+            "value": 0.05,
+            "contribution": 11.2,
+            "normalized": 64.1
           }
         ],
         "positionDescription": "Left Winger - Attacks from the left, cuts inside or crosses"
@@ -1993,35 +2079,30 @@
         "position": "ST",
         "naturalPosition": "ST",
         "isNaturalPosition": true,
-        "overallScore": 68.4,
+        "overallScore": 45.8,
         "fitness": 88.2,
         "recentForm": 84.0,
         "minutes": 2610,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Robert Lewandowski starts at ST as the top-rated option, excelling in goal scoring and shooting accuracy.",
-        "backupComparison": "He was the clear choice, outperforming Dani Olmo by 39.1 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Robert Lewandowski starts at ST as the top-rated option, excelling in goal scoring and recent form.",
+        "backupComparison": "He narrowly beat out Marc Guiu by 7.9 points.",
         "bestAlternative": {
-          "player_id": 17,
-          "player_name": "Dani Olmo",
-          "score": 29.3
+          "playerId": 24,
+          "playerName": "Marc Guiu",
+          "score": 37.9,
+          "naturalPosition": "ST",
+          "compatFactor": 1.0
         },
-        "scoreGap": 39.10000000000001,
+        "scoreGap": 7.899999999999999,
         "selectionReasons": [
           {
             "stat": "goals",
             "description": "goal scoring",
-            "value": 0.82,
-            "contribution": 19.2,
-            "normalized": 64.1
-          },
-          {
-            "stat": "shots_on_target",
-            "description": "shooting accuracy",
-            "value": 2.18,
-            "contribution": 11.5,
-            "normalized": 64.1
+            "value": 0.03,
+            "contribution": 10.8,
+            "normalized": 35.9
           },
           {
             "stat": "recent_form_score",
@@ -2029,6 +2110,13 @@
             "value": 84.0,
             "contribution": 10.1,
             "normalized": 84.0
+          },
+          {
+            "stat": "fitness_indicator",
+            "description": "fitness level",
+            "value": 88.2,
+            "contribution": 7.1,
+            "normalized": 88.2
           }
         ],
         "positionDescription": "Striker - Primary goal scorer"
@@ -2047,13 +2135,15 @@
         "minutes": 2520,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
+        "totalCandidates": 2,
         "selectionSentence": "Marc-Andr\u00e9 ter Stegen starts at GK as the top-rated option, excelling in passing accuracy and shot stopping.",
         "backupComparison": "He was the clear choice, outperforming I\u00f1aki Pe\u00f1a by 31.1 points.",
         "bestAlternative": {
-          "player_id": 2,
-          "player_name": "I\u00f1aki Pe\u00f1a",
-          "score": 40.0
+          "playerId": 2,
+          "playerName": "I\u00f1aki Pe\u00f1a",
+          "score": 40.0,
+          "naturalPosition": "GK",
+          "compatFactor": 1.0
         },
         "scoreGap": 31.099999999999994,
         "selectionReasons": [
@@ -2082,45 +2172,47 @@
         "positionDescription": "Goalkeeper - Last line of defense, responsible for shot stopping"
       },
       {
-        "playerId": 3,
-        "playerName": "Jules Kound\u00e9",
+        "playerId": 4,
+        "playerName": "Jo\u00e3o Cancelo",
         "position": "RB",
         "naturalPosition": "RB",
         "isNaturalPosition": true,
-        "overallScore": 65.1,
-        "fitness": 89.8,
-        "recentForm": 84.4,
-        "minutes": 2880,
+        "overallScore": 71.6,
+        "fitness": 73.4,
+        "recentForm": 89.1,
+        "minutes": 1620,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Jules Kound\u00e9 starts at RB as the top-rated option, excelling in creating chances and passing accuracy.",
-        "backupComparison": "It was a tight race with Alejandro Balde (only 2.7 points ahead).",
+        "totalCandidates": 4,
+        "selectionSentence": "Jo\u00e3o Cancelo starts at RB as the top-rated option, excelling in creating chances and passing accuracy.",
+        "backupComparison": "He had a solid edge over Marcos Alonso (11.0 points higher).",
         "bestAlternative": {
-          "player_id": 9,
-          "player_name": "Alejandro Balde",
-          "score": 62.4
+          "playerId": 10,
+          "playerName": "Marcos Alonso",
+          "score": 60.6,
+          "naturalPosition": "LB",
+          "compatFactor": 0.84
         },
-        "scoreGap": 2.6999999999999957,
+        "scoreGap": 10.999999999999993,
         "selectionReasons": [
           {
             "stat": "key_passes",
             "description": "creating chances",
-            "value": 1.37,
+            "value": 0.07,
             "contribution": 14.3,
             "normalized": 64.1
           },
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 99.93,
-            "contribution": 13.9,
-            "normalized": 99.9
+            "value": 97.83,
+            "contribution": 13.6,
+            "normalized": 97.8
           },
           {
             "stat": "dribbles",
             "description": "beating opponents",
-            "value": 1.65,
+            "value": 0.09,
             "contribution": 11.3,
             "normalized": 64.1
           }
@@ -2128,93 +2220,97 @@
         "positionDescription": "Right Back - Defends the right flank and supports attacks"
       },
       {
-        "playerId": 5,
-        "playerName": "Ronald Ara\u00fajo",
+        "playerId": 8,
+        "playerName": "Pau Cubars\u00ed",
         "position": "CB_1",
         "naturalPosition": "CB",
         "isNaturalPosition": true,
-        "overallScore": 84.4,
-        "fitness": 96.8,
-        "recentForm": 80.5,
-        "minutes": 2160,
+        "overallScore": 63.2,
+        "fitness": 74.7,
+        "recentForm": 42.2,
+        "minutes": 540,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Ronald Ara\u00fajo starts at CB as the top-rated option, excelling in passing accuracy and reading the game.",
-        "backupComparison": "He was the clear choice, outperforming Andreas Christensen by 19.0 points.",
+        "totalCandidates": 6,
+        "selectionSentence": "Pau Cubars\u00ed starts at CB as the top-rated option, excelling in passing accuracy and reading the game.",
+        "backupComparison": "It was a tight race with I\u00f1igo Mart\u00ednez (only 1.3 points ahead).",
         "bestAlternative": {
-          "player_id": 6,
-          "player_name": "Andreas Christensen",
-          "score": 65.4
+          "playerId": 7,
+          "playerName": "I\u00f1igo Mart\u00ednez",
+          "score": 61.9,
+          "naturalPosition": "CB",
+          "compatFactor": 1.0
         },
-        "scoreGap": 19.0,
+        "scoreGap": 1.3000000000000043,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 23.3,
-            "normalized": 100.0
+            "value": 95.84,
+            "contribution": 22.3,
+            "normalized": 95.8
           },
           {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 4.09,
-            "contribution": 12.9,
-            "normalized": 73.7
+            "value": 0.57,
+            "contribution": 13.9,
+            "normalized": 79.3
           },
           {
             "stat": "aerial_duels_won",
             "description": "aerial ability",
-            "value": 4.55,
-            "contribution": 12.1,
-            "normalized": 77.6
+            "value": 0.59,
+            "contribution": 12.3,
+            "normalized": 79.5
           }
         ],
         "positionDescription": "Center Back - Central defender who wins aerial duels"
       },
       {
-        "playerId": 6,
-        "playerName": "Andreas Christensen",
+        "playerId": 7,
+        "playerName": "I\u00f1igo Mart\u00ednez",
         "position": "CB_2",
         "naturalPosition": "CB",
         "isNaturalPosition": true,
-        "overallScore": 65.4,
-        "fitness": 73.7,
-        "recentForm": 88.2,
-        "minutes": 1980,
+        "overallScore": 61.9,
+        "fitness": 77.1,
+        "recentForm": 81.6,
+        "minutes": 1080,
         "compatFactor": 1.0,
         "rankForPosition": 2,
-        "totalCandidates": 24,
-        "selectionSentence": "Andreas Christensen starts at CB as the second-best option, excelling in passing accuracy and reading the game.",
-        "backupComparison": "Interestingly, Ronald Ara\u00fajo actually scored higher for this position.",
+        "totalCandidates": 6,
+        "selectionSentence": "I\u00f1igo Mart\u00ednez starts at CB as the second-best option, excelling in passing accuracy and reading the game.",
+        "backupComparison": "Interestingly, Pau Cubars\u00ed actually scored higher for this position.",
         "bestAlternative": {
-          "player_id": 5,
-          "player_name": "Ronald Ara\u00fajo",
-          "score": 84.4
+          "playerId": 8,
+          "playerName": "Pau Cubars\u00ed",
+          "score": 63.2,
+          "naturalPosition": "CB",
+          "compatFactor": 1.0
         },
-        "scoreGap": -19.0,
+        "scoreGap": -1.3000000000000043,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 23.3,
-            "normalized": 100.0
+            "value": 86.18,
+            "contribution": 20.1,
+            "normalized": 86.2
           },
           {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 3.72,
-            "contribution": 9.9,
-            "normalized": 56.4
+            "value": 0.26,
+            "contribution": 8.1,
+            "normalized": 46.3
           },
           {
             "stat": "recent_form_score",
             "description": "recent form",
-            "value": 88.2,
-            "contribution": 8.6,
-            "normalized": 88.2
+            "value": 81.6,
+            "contribution": 7.9,
+            "normalized": 81.6
           }
         ],
         "positionDescription": "Center Back - Central defender who wins aerial duels"
@@ -2225,29 +2321,24 @@
         "position": "LB",
         "naturalPosition": "LB",
         "isNaturalPosition": true,
-        "overallScore": 72.8,
+        "overallScore": 52.1,
         "fitness": 93.1,
         "recentForm": 92.9,
         "minutes": 2340,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Alejandro Balde starts at LB as the top-rated option, excelling in creating chances and passing accuracy.",
-        "backupComparison": "He was the clear choice, outperforming Jules Kound\u00e9 by 15.3 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Alejandro Balde starts at LB as the top-rated option, excelling in passing accuracy and recent form.",
+        "backupComparison": "It was a tight race with Marcos Alonso (only 0.6 points ahead).",
         "bestAlternative": {
-          "player_id": 3,
-          "player_name": "Jules Kound\u00e9",
-          "score": 57.5
+          "playerId": 10,
+          "playerName": "Marcos Alonso",
+          "score": 51.5,
+          "naturalPosition": "LB",
+          "compatFactor": 1.0
         },
-        "scoreGap": 15.299999999999997,
+        "scoreGap": 0.6000000000000014,
         "selectionReasons": [
-          {
-            "stat": "key_passes",
-            "description": "creating chances",
-            "value": 1.82,
-            "contribution": 14.3,
-            "normalized": 64.1
-          },
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
@@ -2256,55 +2347,64 @@
             "normalized": 100.0
           },
           {
-            "stat": "dribbles",
-            "description": "beating opponents",
-            "value": 2.01,
-            "contribution": 12.5,
-            "normalized": 64.1
+            "stat": "recent_form_score",
+            "description": "recent form",
+            "value": 92.9,
+            "contribution": 8.6,
+            "normalized": 92.9
+          },
+          {
+            "stat": "key_passes",
+            "description": "creating chances",
+            "value": 0.07,
+            "contribution": 8.0,
+            "normalized": 35.9
           }
         ],
         "positionDescription": "Left Back - Defends the left flank and supports attacks"
       },
       {
-        "playerId": 12,
-        "playerName": "Frenkie de Jong",
+        "playerId": 11,
+        "playerName": "Oriol Romeu",
         "position": "DM_1",
         "naturalPosition": "DM",
         "isNaturalPosition": true,
-        "overallScore": 74.3,
-        "fitness": 75.0,
-        "recentForm": 93.6,
-        "minutes": 1800,
+        "overallScore": 65.9,
+        "fitness": 60.7,
+        "recentForm": 75.5,
+        "minutes": 900,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Frenkie de Jong starts at DM as the top-rated option, excelling in passing accuracy and moving forward.",
-        "backupComparison": "He narrowly beat out Pedri by 6.4 points.",
+        "totalCandidates": 10,
+        "selectionSentence": "Oriol Romeu starts at DM as the top-rated option, excelling in moving forward and passing accuracy.",
+        "backupComparison": "It was a tight race with Gavi (only 1.6 points ahead).",
         "bestAlternative": {
-          "player_id": 14,
-          "player_name": "Pedri",
-          "score": 67.9
+          "playerId": 16,
+          "playerName": "Gavi",
+          "score": 64.3,
+          "naturalPosition": "CM",
+          "compatFactor": 0.84
         },
-        "scoreGap": 6.3999999999999915,
+        "scoreGap": 1.6000000000000085,
         "selectionReasons": [
-          {
-            "stat": "pass_accuracy",
-            "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 18.5,
-            "normalized": 100.0
-          },
           {
             "stat": "progressive_passes",
             "description": "moving forward",
-            "value": 5.98,
+            "value": 0.41,
             "contribution": 13.1,
             "normalized": 64.1
           },
           {
+            "stat": "pass_accuracy",
+            "description": "passing accuracy",
+            "value": 69.33,
+            "contribution": 12.8,
+            "normalized": 69.3
+          },
+          {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 3.14,
+            "value": 0.17,
             "contribution": 10.7,
             "normalized": 64.1
           }
@@ -2312,31 +2412,33 @@
         "positionDescription": "Defensive Midfielder - Shields the defense, breaks up attacks"
       },
       {
-        "playerId": 14,
-        "playerName": "Pedri",
+        "playerId": 16,
+        "playerName": "Gavi",
         "position": "DM_2",
         "naturalPosition": "CM",
         "isNaturalPosition": false,
-        "overallScore": 67.9,
-        "fitness": 96.2,
-        "recentForm": 92.3,
-        "minutes": 2160,
+        "overallScore": 64.3,
+        "fitness": 70.7,
+        "recentForm": 70.7,
+        "minutes": 1080,
         "compatFactor": 0.84,
         "rankForPosition": 2,
-        "totalCandidates": 24,
-        "selectionSentence": "Pedri plays at DM (normally a CM) as the second-best option, excelling in moving forward and passing accuracy.",
-        "backupComparison": "Interestingly, Frenkie de Jong actually scored higher for this position.",
+        "totalCandidates": 10,
+        "selectionSentence": "Gavi plays at DM (normally a CM) as the second-best option, excelling in moving forward and passing accuracy.",
+        "backupComparison": "Interestingly, Oriol Romeu actually scored higher for this position.",
         "bestAlternative": {
-          "player_id": 12,
-          "player_name": "Frenkie de Jong",
-          "score": 74.3
+          "playerId": 11,
+          "playerName": "Oriol Romeu",
+          "score": 65.9,
+          "naturalPosition": "DM",
+          "compatFactor": 1.0
         },
-        "scoreGap": -6.3999999999999915,
+        "scoreGap": -1.6000000000000085,
         "selectionReasons": [
           {
             "stat": "progressive_passes",
             "description": "moving forward",
-            "value": 8.86,
+            "value": 0.58,
             "contribution": 20.4,
             "normalized": 100.0
           },
@@ -2350,7 +2452,7 @@
           {
             "stat": "key_passes",
             "description": "creating chances",
-            "value": 2.28,
+            "value": 0.17,
             "contribution": 12.0,
             "normalized": 100.0
           }
@@ -2363,41 +2465,43 @@
         "position": "RW",
         "naturalPosition": "RW",
         "isNaturalPosition": true,
-        "overallScore": 68.3,
+        "overallScore": 55.8,
         "fitness": 90.0,
         "recentForm": 90.4,
         "minutes": 2430,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Lamine Yamal starts at RW as the top-rated option, excelling in goal scoring and beating opponents.",
-        "backupComparison": "He was the clear choice, outperforming Raphinha by 24.8 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Lamine Yamal starts at RW as the top-rated option, excelling in goal scoring and creating chances.",
+        "backupComparison": "It was a tight race with Raphinha (only 0.9 points ahead).",
         "bestAlternative": {
-          "player_id": 20,
-          "player_name": "Raphinha",
-          "score": 43.5
+          "playerId": 20,
+          "playerName": "Raphinha",
+          "score": 54.9,
+          "naturalPosition": "RW",
+          "compatFactor": 1.0
         },
-        "scoreGap": 24.799999999999997,
+        "scoreGap": 0.8999999999999986,
         "selectionReasons": [
           {
             "stat": "goals",
             "description": "goal scoring",
-            "value": 0.48,
-            "contribution": 17.0,
+            "value": 0.02,
+            "contribution": 14.9,
             "normalized": 64.1
           },
           {
-            "stat": "dribbles",
-            "description": "beating opponents",
-            "value": 5.6,
-            "contribution": 13.1,
+            "stat": "key_passes",
+            "description": "creating chances",
+            "value": 0.1,
+            "contribution": 12.2,
             "normalized": 64.1
           },
           {
             "stat": "recent_form_score",
             "description": "recent form",
             "value": 90.4,
-            "contribution": 9.6,
+            "contribution": 7.6,
             "normalized": 90.4
           }
         ],
@@ -2409,26 +2513,28 @@
         "position": "AM",
         "naturalPosition": "AM",
         "isNaturalPosition": true,
-        "overallScore": 67.1,
+        "overallScore": 63.9,
         "fitness": 74.8,
         "recentForm": 84.7,
         "minutes": 1440,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
+        "totalCandidates": 10,
         "selectionSentence": "Dani Olmo starts at AM as the top-rated option, excelling in creating chances and passing accuracy.",
-        "backupComparison": "He narrowly beat out Lamine Yamal by 5.0 points.",
+        "backupComparison": "He narrowly beat out Vitor Roque by 3.8 points.",
         "bestAlternative": {
-          "player_id": 19,
-          "player_name": "Lamine Yamal",
-          "score": 62.1
+          "playerId": 22,
+          "playerName": "Vitor Roque",
+          "score": 60.1,
+          "naturalPosition": "LW",
+          "compatFactor": 0.84
         },
-        "scoreGap": 4.999999999999993,
+        "scoreGap": 3.799999999999997,
         "selectionReasons": [
           {
             "stat": "key_passes",
             "description": "creating chances",
-            "value": 2.94,
+            "value": 0.18,
             "contribution": 16.5,
             "normalized": 64.1
           },
@@ -2440,57 +2546,59 @@
             "normalized": 92.5
           },
           {
-            "stat": "goals",
-            "description": "goal scoring",
-            "value": 0.27,
-            "contribution": 11.5,
-            "normalized": 50.0
+            "stat": "recent_form_score",
+            "description": "recent form",
+            "value": 84.7,
+            "contribution": 9.0,
+            "normalized": 84.7
           }
         ],
         "positionDescription": "Attacking Midfielder - Creative hub who supplies forwards"
       },
       {
-        "playerId": 21,
-        "playerName": "Jo\u00e3o F\u00e9lix",
+        "playerId": 22,
+        "playerName": "Vitor Roque",
         "position": "LW",
         "naturalPosition": "LW",
         "isNaturalPosition": true,
-        "overallScore": 64.0,
-        "fitness": 71.7,
-        "recentForm": 89.6,
-        "minutes": 1890,
+        "overallScore": 50.8,
+        "fitness": 55.9,
+        "recentForm": 61.4,
+        "minutes": 450,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Jo\u00e3o F\u00e9lix starts at LW as the top-rated option, excelling in goal scoring and beating opponents.",
-        "backupComparison": "He was the clear choice, outperforming Dani Olmo by 21.3 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Vitor Roque starts at LW as the top-rated option, excelling in beating opponents and goal scoring.",
+        "backupComparison": "He had a solid edge over Jo\u00e3o F\u00e9lix (8.8 points higher).",
         "bestAlternative": {
-          "player_id": 17,
-          "player_name": "Dani Olmo",
-          "score": 42.7
+          "playerId": 21,
+          "playerName": "Jo\u00e3o F\u00e9lix",
+          "score": 42.0,
+          "naturalPosition": "LW",
+          "compatFactor": 1.0
         },
-        "scoreGap": 21.299999999999997,
+        "scoreGap": 8.799999999999997,
         "selectionReasons": [
-          {
-            "stat": "goals",
-            "description": "goal scoring",
-            "value": 0.26,
-            "contribution": 15.9,
-            "normalized": 64.1
-          },
           {
             "stat": "dribbles",
             "description": "beating opponents",
-            "value": 4.09,
-            "contribution": 13.1,
+            "value": 0.7,
+            "contribution": 14.1,
             "normalized": 64.1
           },
           {
-            "stat": "recent_form_score",
-            "description": "recent form",
-            "value": 89.6,
-            "contribution": 9.5,
-            "normalized": 89.6
+            "stat": "goals",
+            "description": "goal scoring",
+            "value": 0.04,
+            "contribution": 13.4,
+            "normalized": 64.1
+          },
+          {
+            "stat": "key_passes",
+            "description": "creating chances",
+            "value": 0.32,
+            "contribution": 11.0,
+            "normalized": 64.1
           }
         ],
         "positionDescription": "Left Winger - Attacks from the left, cuts inside or crosses"
@@ -2501,35 +2609,30 @@
         "position": "ST",
         "naturalPosition": "ST",
         "isNaturalPosition": true,
-        "overallScore": 68.0,
+        "overallScore": 44.7,
         "fitness": 88.2,
         "recentForm": 84.0,
         "minutes": 2610,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Robert Lewandowski starts at ST as the top-rated option, excelling in goal scoring and shooting accuracy.",
-        "backupComparison": "He was the clear choice, outperforming Dani Olmo by 41.7 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Robert Lewandowski starts at ST as the top-rated option, excelling in goal scoring and recent form.",
+        "backupComparison": "He narrowly beat out Marc Guiu by 6.7 points.",
         "bestAlternative": {
-          "player_id": 17,
-          "player_name": "Dani Olmo",
-          "score": 26.3
+          "playerId": 24,
+          "playerName": "Marc Guiu",
+          "score": 38.0,
+          "naturalPosition": "ST",
+          "compatFactor": 1.0
         },
-        "scoreGap": 41.7,
+        "scoreGap": 6.700000000000003,
         "selectionReasons": [
           {
             "stat": "goals",
             "description": "goal scoring",
-            "value": 0.82,
-            "contribution": 21.6,
-            "normalized": 64.1
-          },
-          {
-            "stat": "shots_on_target",
-            "description": "shooting accuracy",
-            "value": 2.18,
-            "contribution": 13.1,
-            "normalized": 64.1
+            "value": 0.03,
+            "contribution": 12.1,
+            "normalized": 35.9
           },
           {
             "stat": "recent_form_score",
@@ -2537,6 +2640,13 @@
             "value": 84.0,
             "contribution": 8.9,
             "normalized": 84.0
+          },
+          {
+            "stat": "shots_on_target",
+            "description": "shooting accuracy",
+            "value": 0.08,
+            "contribution": 7.3,
+            "normalized": 35.9
           }
         ],
         "positionDescription": "Striker - Primary goal scorer"
@@ -2555,13 +2665,15 @@
         "minutes": 2520,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
+        "totalCandidates": 2,
         "selectionSentence": "Marc-Andr\u00e9 ter Stegen starts at GK as the top-rated option, excelling in preventing goals and passing accuracy.",
         "backupComparison": "He was the clear choice, outperforming I\u00f1aki Pe\u00f1a by 31.4 points.",
         "bestAlternative": {
-          "player_id": 2,
-          "player_name": "I\u00f1aki Pe\u00f1a",
-          "score": 37.5
+          "playerId": 2,
+          "playerName": "I\u00f1aki Pe\u00f1a",
+          "score": 37.5,
+          "naturalPosition": "GK",
+          "compatFactor": 1.0
         },
         "scoreGap": 31.400000000000006,
         "selectionReasons": [
@@ -2595,26 +2707,28 @@
         "position": "RB",
         "naturalPosition": "RB",
         "isNaturalPosition": true,
-        "overallScore": 62.9,
+        "overallScore": 71.6,
         "fitness": 73.4,
         "recentForm": 89.1,
         "minutes": 1620,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
+        "totalCandidates": 4,
         "selectionSentence": "Jo\u00e3o Cancelo starts at RB as the top-rated option, excelling in winning the ball and passing accuracy.",
-        "backupComparison": "It was a tight race with Jules Kound\u00e9 (only 2.5 points ahead).",
+        "backupComparison": "He had a solid edge over Marcos Alonso (11.0 points higher).",
         "bestAlternative": {
-          "player_id": 3,
-          "player_name": "Jules Kound\u00e9",
-          "score": 60.4
+          "playerId": 10,
+          "playerName": "Marcos Alonso",
+          "score": 60.6,
+          "naturalPosition": "LB",
+          "compatFactor": 0.84
         },
-        "scoreGap": 2.5,
+        "scoreGap": 10.999999999999993,
         "selectionReasons": [
           {
             "stat": "tackles",
             "description": "winning the ball",
-            "value": 3.14,
+            "value": 0.17,
             "contribution": 15.4,
             "normalized": 64.1
           },
@@ -2628,7 +2742,7 @@
           {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 2.04,
+            "value": 0.11,
             "contribution": 11.3,
             "normalized": 64.1
           }
@@ -2636,93 +2750,97 @@
         "positionDescription": "Right Back - Defends the right flank and supports attacks"
       },
       {
-        "playerId": 5,
-        "playerName": "Ronald Ara\u00fajo",
+        "playerId": 8,
+        "playerName": "Pau Cubars\u00ed",
         "position": "CB_1",
         "naturalPosition": "CB",
         "isNaturalPosition": true,
-        "overallScore": 82.0,
-        "fitness": 96.8,
-        "recentForm": 80.5,
-        "minutes": 2160,
+        "overallScore": 62.3,
+        "fitness": 74.7,
+        "recentForm": 42.2,
+        "minutes": 540,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Ronald Ara\u00fajo starts at CB as the top-rated option, excelling in defensive clearances and reading the game.",
-        "backupComparison": "He was the clear choice, outperforming Andreas Christensen by 22.4 points.",
+        "totalCandidates": 6,
+        "selectionSentence": "Pau Cubars\u00ed starts at CB as the top-rated option, excelling in defensive clearances and reading the game.",
+        "backupComparison": "He narrowly beat out I\u00f1igo Mart\u00ednez by 4.9 points.",
         "bestAlternative": {
-          "player_id": 6,
-          "player_name": "Andreas Christensen",
-          "score": 59.6
+          "playerId": 7,
+          "playerName": "I\u00f1igo Mart\u00ednez",
+          "score": 57.4,
+          "naturalPosition": "CB",
+          "compatFactor": 1.0
         },
-        "scoreGap": 22.4,
+        "scoreGap": 4.899999999999999,
         "selectionReasons": [
           {
             "stat": "clearances",
             "description": "defensive clearances",
-            "value": 4.98,
-            "contribution": 17.4,
-            "normalized": 79.0
+            "value": 0.59,
+            "contribution": 17.3,
+            "normalized": 78.6
           },
           {
             "stat": "interceptions",
             "description": "reading the game",
-            "value": 4.09,
-            "contribution": 14.4,
-            "normalized": 73.7
+            "value": 0.57,
+            "contribution": 15.5,
+            "normalized": 79.3
           },
           {
             "stat": "aerial_duels_won",
             "description": "aerial ability",
-            "value": 4.55,
-            "contribution": 13.8,
-            "normalized": 77.6
+            "value": 0.59,
+            "contribution": 14.1,
+            "normalized": 79.5
           }
         ],
         "positionDescription": "Center Back - Central defender who wins aerial duels"
       },
       {
-        "playerId": 6,
-        "playerName": "Andreas Christensen",
+        "playerId": 7,
+        "playerName": "I\u00f1igo Mart\u00ednez",
         "position": "CB_2",
         "naturalPosition": "CB",
         "isNaturalPosition": true,
-        "overallScore": 59.6,
-        "fitness": 73.7,
-        "recentForm": 88.2,
-        "minutes": 1980,
+        "overallScore": 57.4,
+        "fitness": 77.1,
+        "recentForm": 81.6,
+        "minutes": 1080,
         "compatFactor": 1.0,
         "rankForPosition": 2,
-        "totalCandidates": 24,
-        "selectionSentence": "Andreas Christensen starts at CB as the second-best option, excelling in passing accuracy and reading the game.",
-        "backupComparison": "Interestingly, Ronald Ara\u00fajo actually scored higher for this position.",
+        "totalCandidates": 6,
+        "selectionSentence": "I\u00f1igo Mart\u00ednez starts at CB as the second-best option, excelling in passing accuracy and defensive clearances.",
+        "backupComparison": "Interestingly, Pau Cubars\u00ed actually scored higher for this position.",
         "bestAlternative": {
-          "player_id": 5,
-          "player_name": "Ronald Ara\u00fajo",
-          "score": 82.0
+          "playerId": 8,
+          "playerName": "Pau Cubars\u00ed",
+          "score": 62.3,
+          "naturalPosition": "CB",
+          "compatFactor": 1.0
         },
-        "scoreGap": -22.4,
+        "scoreGap": -4.899999999999999,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 13.6,
-            "normalized": 100.0
-          },
-          {
-            "stat": "interceptions",
-            "description": "reading the game",
-            "value": 3.72,
-            "contribution": 11.0,
-            "normalized": 56.4
+            "value": 86.18,
+            "contribution": 11.7,
+            "normalized": 86.2
           },
           {
             "stat": "clearances",
             "description": "defensive clearances",
-            "value": 3.96,
-            "contribution": 10.3,
-            "normalized": 46.6
+            "value": 0.31,
+            "contribution": 10.8,
+            "normalized": 48.9
+          },
+          {
+            "stat": "interceptions",
+            "description": "reading the game",
+            "value": 0.26,
+            "contribution": 9.0,
+            "normalized": 46.3
           }
         ],
         "positionDescription": "Center Back - Central defender who wins aerial duels"
@@ -2733,29 +2851,24 @@
         "position": "LB",
         "naturalPosition": "LB",
         "isNaturalPosition": true,
-        "overallScore": 72.8,
+        "overallScore": 52.1,
         "fitness": 93.1,
         "recentForm": 92.9,
         "minutes": 2340,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Alejandro Balde starts at LB as the top-rated option, excelling in winning the ball and passing accuracy.",
-        "backupComparison": "He had a solid edge over Jules Kound\u00e9 (11.4 points higher).",
+        "totalCandidates": 4,
+        "selectionSentence": "Alejandro Balde starts at LB as the top-rated option, excelling in passing accuracy and winning the ball.",
+        "backupComparison": "It was a tight race with Marcos Alonso (only 0.6 points ahead).",
         "bestAlternative": {
-          "player_id": 3,
-          "player_name": "Jules Kound\u00e9",
-          "score": 61.4
+          "playerId": 10,
+          "playerName": "Marcos Alonso",
+          "score": 51.5,
+          "naturalPosition": "LB",
+          "compatFactor": 1.0
         },
-        "scoreGap": 11.399999999999999,
+        "scoreGap": 0.6000000000000014,
         "selectionReasons": [
-          {
-            "stat": "tackles",
-            "description": "winning the ball",
-            "value": 2.52,
-            "contribution": 15.4,
-            "normalized": 64.1
-          },
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
@@ -2764,82 +2877,93 @@
             "normalized": 100.0
           },
           {
-            "stat": "interceptions",
-            "description": "reading the game",
-            "value": 2.01,
-            "contribution": 10.1,
-            "normalized": 64.1
+            "stat": "tackles",
+            "description": "winning the ball",
+            "value": 0.1,
+            "contribution": 8.6,
+            "normalized": 35.9
+          },
+          {
+            "stat": "recent_form_score",
+            "description": "recent form",
+            "value": 92.9,
+            "contribution": 8.6,
+            "normalized": 92.9
           }
         ],
         "positionDescription": "Left Back - Defends the left flank and supports attacks"
       },
       {
-        "playerId": 12,
-        "playerName": "Frenkie de Jong",
+        "playerId": 11,
+        "playerName": "Oriol Romeu",
         "position": "DM_1",
         "naturalPosition": "DM",
         "isNaturalPosition": true,
-        "overallScore": 73.7,
-        "fitness": 75.0,
-        "recentForm": 93.6,
-        "minutes": 1800,
+        "overallScore": 65.8,
+        "fitness": 60.7,
+        "recentForm": 75.5,
+        "minutes": 900,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Frenkie de Jong starts at DM as the top-rated option, excelling in winning the ball and passing accuracy.",
-        "backupComparison": "He was the clear choice, outperforming Pedri by 15.1 points.",
+        "totalCandidates": 10,
+        "selectionSentence": "Oriol Romeu starts at DM as the top-rated option, excelling in winning the ball and reading the game.",
+        "backupComparison": "He narrowly beat out Ferm\u00edn L\u00f3pez by 7.1 points.",
         "bestAlternative": {
-          "player_id": 14,
-          "player_name": "Pedri",
-          "score": 58.6
+          "playerId": 15,
+          "playerName": "Ferm\u00edn L\u00f3pez",
+          "score": 58.7,
+          "naturalPosition": "CM",
+          "compatFactor": 0.84
         },
-        "scoreGap": 15.100000000000001,
+        "scoreGap": 7.099999999999994,
         "selectionReasons": [
           {
             "stat": "tackles",
             "description": "winning the ball",
-            "value": 4.13,
+            "value": 0.23,
             "contribution": 19.0,
+            "normalized": 64.1
+          },
+          {
+            "stat": "interceptions",
+            "description": "reading the game",
+            "value": 0.17,
+            "contribution": 14.5,
             "normalized": 64.1
           },
           {
             "stat": "pass_accuracy",
             "description": "passing accuracy",
-            "value": 100.0,
-            "contribution": 17.4,
-            "normalized": 100.0
-          },
-          {
-            "stat": "interceptions",
-            "description": "reading the game",
-            "value": 3.14,
-            "contribution": 14.5,
-            "normalized": 64.1
+            "value": 69.33,
+            "contribution": 12.1,
+            "normalized": 69.3
           }
         ],
         "positionDescription": "Defensive Midfielder - Shields the defense, breaks up attacks"
       },
       {
-        "playerId": 14,
-        "playerName": "Pedri",
+        "playerId": 12,
+        "playerName": "Frenkie de Jong",
         "position": "DM_2",
-        "naturalPosition": "CM",
-        "isNaturalPosition": false,
-        "overallScore": 58.6,
-        "fitness": 96.2,
-        "recentForm": 92.3,
-        "minutes": 2160,
-        "compatFactor": 0.84,
-        "rankForPosition": 2,
-        "totalCandidates": 24,
-        "selectionSentence": "Pedri plays at DM (normally a CM) as the second-best option, excelling in passing accuracy and winning the ball.",
-        "backupComparison": "Interestingly, Frenkie de Jong actually scored higher for this position.",
+        "naturalPosition": "DM",
+        "isNaturalPosition": true,
+        "overallScore": 54.8,
+        "fitness": 75.0,
+        "recentForm": 93.6,
+        "minutes": 1800,
+        "compatFactor": 1.0,
+        "rankForPosition": 4,
+        "totalCandidates": 10,
+        "selectionSentence": "Frenkie de Jong starts at DM as the 4th-best option, excelling in passing accuracy and winning the ball.",
+        "backupComparison": "Interestingly, Oriol Romeu actually scored higher for this position.",
         "bestAlternative": {
-          "player_id": 12,
-          "player_name": "Frenkie de Jong",
-          "score": 73.7
+          "playerId": 11,
+          "playerName": "Oriol Romeu",
+          "score": 65.8,
+          "naturalPosition": "DM",
+          "compatFactor": 1.0
         },
-        "scoreGap": -15.100000000000001,
+        "scoreGap": -11.0,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
@@ -2851,16 +2975,16 @@
           {
             "stat": "tackles",
             "description": "winning the ball",
-            "value": 2.88,
-            "contribution": 13.1,
-            "normalized": 44.4
+            "value": 0.21,
+            "contribution": 10.6,
+            "normalized": 35.9
           },
           {
-            "stat": "progressive_passes",
-            "description": "moving forward",
-            "value": 8.86,
-            "contribution": 12.2,
-            "normalized": 100.0
+            "stat": "interceptions",
+            "description": "reading the game",
+            "value": 0.16,
+            "contribution": 8.1,
+            "normalized": 35.9
           }
         ],
         "positionDescription": "Defensive Midfielder - Shields the defense, breaks up attacks"
@@ -2871,42 +2995,44 @@
         "position": "RW",
         "naturalPosition": "RW",
         "isNaturalPosition": true,
-        "overallScore": 69.1,
+        "overallScore": 57.5,
         "fitness": 90.0,
         "recentForm": 90.4,
         "minutes": 2430,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Lamine Yamal starts at RW as the top-rated option, excelling in goal scoring and recent form.",
-        "backupComparison": "He was the clear choice, outperforming Raphinha by 24.2 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Lamine Yamal starts at RW as the top-rated option, excelling in creating chances and goal scoring.",
+        "backupComparison": "It was a tight race with Raphinha (only 1.8 points ahead).",
         "bestAlternative": {
-          "player_id": 20,
-          "player_name": "Raphinha",
-          "score": 44.9
+          "playerId": 20,
+          "playerName": "Raphinha",
+          "score": 55.7,
+          "naturalPosition": "RW",
+          "compatFactor": 1.0
         },
-        "scoreGap": 24.199999999999996,
+        "scoreGap": 1.7999999999999972,
         "selectionReasons": [
+          {
+            "stat": "key_passes",
+            "description": "creating chances",
+            "value": 0.1,
+            "contribution": 15.0,
+            "normalized": 64.1
+          },
           {
             "stat": "goals",
             "description": "goal scoring",
-            "value": 0.48,
-            "contribution": 14.9,
+            "value": 0.02,
+            "contribution": 11.7,
             "normalized": 64.1
           },
           {
             "stat": "recent_form_score",
             "description": "recent form",
             "value": 90.4,
-            "contribution": 11.4,
+            "contribution": 9.4,
             "normalized": 90.4
-          },
-          {
-            "stat": "key_passes",
-            "description": "creating chances",
-            "value": 2.58,
-            "contribution": 10.8,
-            "normalized": 64.1
           }
         ],
         "positionDescription": "Right Winger - Attacks from the right, cuts inside or crosses"
@@ -2917,21 +3043,23 @@
         "position": "AM",
         "naturalPosition": "AM",
         "isNaturalPosition": true,
-        "overallScore": 70.8,
+        "overallScore": 69.0,
         "fitness": 74.8,
         "recentForm": 84.7,
         "minutes": 1440,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
+        "totalCandidates": 10,
         "selectionSentence": "Dani Olmo starts at AM as the top-rated option, excelling in passing accuracy and creating chances.",
-        "backupComparison": "He narrowly beat out Lamine Yamal by 3.9 points.",
+        "backupComparison": "He had a solid edge over Vitor Roque (10.9 points higher).",
         "bestAlternative": {
-          "player_id": 19,
-          "player_name": "Lamine Yamal",
-          "score": 66.9
+          "playerId": 22,
+          "playerName": "Vitor Roque",
+          "score": 58.1,
+          "naturalPosition": "LW",
+          "compatFactor": 0.84
         },
-        "scoreGap": 3.8999999999999915,
+        "scoreGap": 10.899999999999999,
         "selectionReasons": [
           {
             "stat": "pass_accuracy",
@@ -2943,7 +3071,7 @@
           {
             "stat": "key_passes",
             "description": "creating chances",
-            "value": 2.94,
+            "value": 0.18,
             "contribution": 15.4,
             "normalized": 64.1
           },
@@ -2958,46 +3086,48 @@
         "positionDescription": "Attacking Midfielder - Creative hub who supplies forwards"
       },
       {
-        "playerId": 21,
-        "playerName": "Jo\u00e3o F\u00e9lix",
+        "playerId": 22,
+        "playerName": "Vitor Roque",
         "position": "LW",
         "naturalPosition": "LW",
         "isNaturalPosition": true,
-        "overallScore": 64.0,
-        "fitness": 71.7,
-        "recentForm": 89.6,
-        "minutes": 1890,
+        "overallScore": 50.7,
+        "fitness": 55.9,
+        "recentForm": 61.4,
+        "minutes": 450,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Jo\u00e3o F\u00e9lix starts at LW as the top-rated option, excelling in goal scoring and recent form.",
-        "backupComparison": "He was the clear choice, outperforming Dani Olmo by 18.3 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Vitor Roque starts at LW as the top-rated option, excelling in creating chances and creating goals for teammates.",
+        "backupComparison": "He narrowly beat out Jo\u00e3o F\u00e9lix by 7.4 points.",
         "bestAlternative": {
-          "player_id": 17,
-          "player_name": "Dani Olmo",
-          "score": 45.7
+          "playerId": 21,
+          "playerName": "Jo\u00e3o F\u00e9lix",
+          "score": 43.3,
+          "naturalPosition": "LW",
+          "compatFactor": 1.0
         },
-        "scoreGap": 18.299999999999997,
+        "scoreGap": 7.400000000000006,
         "selectionReasons": [
-          {
-            "stat": "goals",
-            "description": "goal scoring",
-            "value": 0.26,
-            "contribution": 13.5,
-            "normalized": 64.1
-          },
-          {
-            "stat": "recent_form_score",
-            "description": "recent form",
-            "value": 89.6,
-            "contribution": 11.3,
-            "normalized": 89.6
-          },
           {
             "stat": "key_passes",
             "description": "creating chances",
-            "value": 2.03,
-            "contribution": 9.5,
+            "value": 0.32,
+            "contribution": 13.3,
+            "normalized": 64.1
+          },
+          {
+            "stat": "assists",
+            "description": "creating goals for teammates",
+            "value": 0.05,
+            "contribution": 11.8,
+            "normalized": 64.1
+          },
+          {
+            "stat": "goals",
+            "description": "goal scoring",
+            "value": 0.04,
+            "contribution": 10.3,
             "normalized": 64.1
           }
         ],
@@ -3009,42 +3139,44 @@
         "position": "ST",
         "naturalPosition": "ST",
         "isNaturalPosition": true,
-        "overallScore": 68.3,
+        "overallScore": 45.5,
         "fitness": 88.2,
         "recentForm": 84.0,
         "minutes": 2610,
         "compatFactor": 1.0,
         "rankForPosition": 1,
-        "totalCandidates": 24,
-        "selectionSentence": "Robert Lewandowski starts at ST as the top-rated option, excelling in goal scoring and aerial ability.",
-        "backupComparison": "He was the clear choice, outperforming Dani Olmo by 40.1 points.",
+        "totalCandidates": 4,
+        "selectionSentence": "Robert Lewandowski starts at ST as the top-rated option, excelling in recent form and goal scoring.",
+        "backupComparison": "He narrowly beat out Marc Guiu by 7.6 points.",
         "bestAlternative": {
-          "player_id": 17,
-          "player_name": "Dani Olmo",
-          "score": 28.2
+          "playerId": 24,
+          "playerName": "Marc Guiu",
+          "score": 37.9,
+          "naturalPosition": "ST",
+          "compatFactor": 1.0
         },
-        "scoreGap": 40.099999999999994,
+        "scoreGap": 7.600000000000001,
         "selectionReasons": [
+          {
+            "stat": "recent_form_score",
+            "description": "recent form",
+            "value": 84.0,
+            "contribution": 9.8,
+            "normalized": 84.0
+          },
           {
             "stat": "goals",
             "description": "goal scoring",
-            "value": 0.82,
-            "contribution": 15.6,
-            "normalized": 64.1
+            "value": 0.03,
+            "contribution": 8.7,
+            "normalized": 35.9
           },
           {
             "stat": "aerial_duels_won",
             "description": "aerial ability",
-            "value": 3.15,
-            "contribution": 12.5,
-            "normalized": 64.1
-          },
-          {
-            "stat": "shots_on_target",
-            "description": "shooting accuracy",
-            "value": 2.18,
-            "contribution": 11.2,
-            "normalized": 64.1
+            "value": 0.11,
+            "contribution": 7.0,
+            "normalized": 35.9
           }
         ],
         "positionDescription": "Striker - Primary goal scorer"
