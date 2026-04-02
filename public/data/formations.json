@@ -1,0 +1,128 @@
+{
+  "4-3-3": {
+    "name": "4-3-3",
+    "description": "Balanced formation with 3 attackers - popular in modern football",
+    "positions": [
+      "GK",
+      "RB",
+      "CB_1",
+      "CB_2",
+      "LB",
+      "DM",
+      "CM_1",
+      "CM_2",
+      "RW",
+      "LW",
+      "ST"
+    ],
+    "positionsDisplay": {
+      "GK": {
+        "x": 50,
+        "y": 90
+      },
+      "RB": {
+        "x": 85,
+        "y": 70
+      },
+      "CB_1": {
+        "x": 60,
+        "y": 75
+      },
+      "CB_2": {
+        "x": 40,
+        "y": 75
+      },
+      "LB": {
+        "x": 15,
+        "y": 70
+      },
+      "DM": {
+        "x": 50,
+        "y": 55
+      },
+      "CM_1": {
+        "x": 65,
+        "y": 45
+      },
+      "CM_2": {
+        "x": 35,
+        "y": 45
+      },
+      "RW": {
+        "x": 80,
+        "y": 25
+      },
+      "LW": {
+        "x": 20,
+        "y": 25
+      },
+      "ST": {
+        "x": 50,
+        "y": 15
+      }
+    }
+  },
+  "4-2-3-1": {
+    "name": "4-2-3-1",
+    "description": "Solid defense with attacking midfield trio - great for control",
+    "positions": [
+      "GK",
+      "RB",
+      "CB_1",
+      "CB_2",
+      "LB",
+      "DM_1",
+      "DM_2",
+      "RW",
+      "AM",
+      "LW",
+      "ST"
+    ],
+    "positionsDisplay": {
+      "GK": {
+        "x": 50,
+        "y": 90
+      },
+      "RB": {
+        "x": 85,
+        "y": 70
+      },
+      "CB_1": {
+        "x": 60,
+        "y": 75
+      },
+      "CB_2": {
+        "x": 40,
+        "y": 75
+      },
+      "LB": {
+        "x": 15,
+        "y": 70
+      },
+      "DM_1": {
+        "x": 60,
+        "y": 55
+      },
+      "DM_2": {
+        "x": 40,
+        "y": 55
+      },
+      "RW": {
+        "x": 80,
+        "y": 30
+      },
+      "AM": {
+        "x": 50,
+        "y": 25
+      },
+      "LW": {
+        "x": 20,
+        "y": 30
+      },
+      "ST": {
+        "x": 50,
+        "y": 15
+      }
+    }
+  }
+}

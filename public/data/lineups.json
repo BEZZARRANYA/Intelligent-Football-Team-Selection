@@ -1,0 +1,1674 @@
+{
+  "4-3-3": {
+    "balanced": {
+      "lineup": [
+        {
+          "position": "GK",
+          "basePosition": "GK",
+          "playerId": 1,
+          "playerName": "Marc-Andr\u00e9 ter Stegen",
+          "naturalPosition": "GK",
+          "score": 69.5,
+          "isNaturalPosition": true,
+          "recentForm": 82.3,
+          "fitness": 87.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "RB",
+          "basePosition": "RB",
+          "playerId": 3,
+          "playerName": "Jules Kound\u00e9",
+          "naturalPosition": "RB",
+          "score": 63.8,
+          "isNaturalPosition": true,
+          "recentForm": 84.4,
+          "fitness": 89.8,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CB_1",
+          "basePosition": "CB",
+          "playerId": 5,
+          "playerName": "Ronald Ara\u00fajo",
+          "naturalPosition": "CB",
+          "score": 82.9,
+          "isNaturalPosition": true,
+          "recentForm": 80.5,
+          "fitness": 96.8,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CB_2",
+          "basePosition": "CB",
+          "playerId": 6,
+          "playerName": "Andreas Christensen",
+          "naturalPosition": "CB",
+          "score": 61.7,
+          "isNaturalPosition": true,
+          "recentForm": 88.2,
+          "fitness": 73.7,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "LB",
+          "basePosition": "LB",
+          "playerId": 9,
+          "playerName": "Alejandro Balde",
+          "naturalPosition": "LB",
+          "score": 73.5,
+          "isNaturalPosition": true,
+          "recentForm": 92.9,
+          "fitness": 93.1,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "DM",
+          "basePosition": "DM",
+          "playerId": 12,
+          "playerName": "Frenkie de Jong",
+          "naturalPosition": "DM",
+          "score": 75.1,
+          "isNaturalPosition": true,
+          "recentForm": 93.6,
+          "fitness": 75.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CM_1",
+          "basePosition": "CM",
+          "playerId": 14,
+          "playerName": "Pedri",
+          "naturalPosition": "CM",
+          "score": 77.7,
+          "isNaturalPosition": true,
+          "recentForm": 92.3,
+          "fitness": 96.2,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CM_2",
+          "basePosition": "CM",
+          "playerId": 13,
+          "playerName": "\u0130lkay G\u00fcndo\u011fan",
+          "naturalPosition": "CM",
+          "score": 72.4,
+          "isNaturalPosition": true,
+          "recentForm": 92.1,
+          "fitness": 87.4,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "RW",
+          "basePosition": "RW",
+          "playerId": 19,
+          "playerName": "Lamine Yamal",
+          "naturalPosition": "RW",
+          "score": 68.8,
+          "isNaturalPosition": true,
+          "recentForm": 90.4,
+          "fitness": 90.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "LW",
+          "basePosition": "LW",
+          "playerId": 21,
+          "playerName": "Jo\u00e3o F\u00e9lix",
+          "naturalPosition": "LW",
+          "score": 64.0,
+          "isNaturalPosition": true,
+          "recentForm": 89.6,
+          "fitness": 71.7,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "ST",
+          "basePosition": "ST",
+          "playerId": 23,
+          "playerName": "Robert Lewandowski",
+          "naturalPosition": "ST",
+          "score": 68.4,
+          "isNaturalPosition": true,
+          "recentForm": 84.0,
+          "fitness": 88.2,
+          "compatFactor": 1.0
+        }
+      ],
+      "bench": {
+        "DM": [
+          {
+            "playerId": 16,
+            "playerName": "Gavi",
+            "naturalPosition": "CM",
+            "score": 57.0,
+            "recentForm": 70.7
+          },
+          {
+            "playerId": 11,
+            "playerName": "Oriol Romeu",
+            "naturalPosition": "DM",
+            "score": 48.5,
+            "recentForm": 75.5
+          }
+        ],
+        "RB": [
+          {
+            "playerId": 4,
+            "playerName": "Jo\u00e3o Cancelo",
+            "naturalPosition": "RB",
+            "score": 61.4,
+            "recentForm": 89.1
+          },
+          {
+            "playerId": 10,
+            "playerName": "Marcos Alonso",
+            "naturalPosition": "LB",
+            "score": 13.1,
+            "recentForm": 66.6
+          }
+        ],
+        "RW": [
+          {
+            "playerId": 20,
+            "playerName": "Raphinha",
+            "naturalPosition": "RW",
+            "score": 44.4,
+            "recentForm": 87.9
+          },
+          {
+            "playerId": 17,
+            "playerName": "Dani Olmo",
+            "naturalPosition": "AM",
+            "score": 25.3,
+            "recentForm": 84.7
+          }
+        ],
+        "CM": [
+          {
+            "playerId": 16,
+            "playerName": "Gavi",
+            "naturalPosition": "CM",
+            "score": 62.6,
+            "recentForm": 70.7
+          },
+          {
+            "playerId": 17,
+            "playerName": "Dani Olmo",
+            "naturalPosition": "AM",
+            "score": 48.3,
+            "recentForm": 84.7
+          }
+        ],
+        "ST": [
+          {
+            "playerId": 17,
+            "playerName": "Dani Olmo",
+            "naturalPosition": "AM",
+            "score": 29.3,
+            "recentForm": 84.7
+          },
+          {
+            "playerId": 24,
+            "playerName": "Marc Guiu",
+            "naturalPosition": "ST",
+            "score": 24.3,
+            "recentForm": 57.3
+          }
+        ],
+        "LB": [
+          {
+            "playerId": 4,
+            "playerName": "Jo\u00e3o Cancelo",
+            "naturalPosition": "RB",
+            "score": 59.7,
+            "recentForm": 89.1
+          },
+          {
+            "playerId": 10,
+            "playerName": "Marcos Alonso",
+            "naturalPosition": "LB",
+            "score": 35.4,
+            "recentForm": 66.6
+          }
+        ],
+        "GK": [
+          {
+            "playerId": 2,
+            "playerName": "I\u00f1aki Pe\u00f1a",
+            "naturalPosition": "GK",
+            "score": 38.7,
+            "recentForm": 45.5
+          }
+        ],
+        "CB": [
+          {
+            "playerId": 7,
+            "playerName": "I\u00f1igo Mart\u00ednez",
+            "naturalPosition": "CB",
+            "score": 50.8,
+            "recentForm": 81.6
+          },
+          {
+            "playerId": 8,
+            "playerName": "Pau Cubars\u00ed",
+            "naturalPosition": "CB",
+            "score": 42.2,
+            "recentForm": 42.2
+          }
+        ],
+        "LW": [
+          {
+            "playerId": 17,
+            "playerName": "Dani Olmo",
+            "naturalPosition": "AM",
+            "score": 43.4,
+            "recentForm": 84.7
+          },
+          {
+            "playerId": 22,
+            "playerName": "Vitor Roque",
+            "naturalPosition": "LW",
+            "score": 35.9,
+            "recentForm": 61.4
+          }
+        ]
+      },
+      "teamScore": 777.8,
+      "averageScore": 70.7,
+      "outOfPosition": 0
+    },
+    "attacking": {
+      "lineup": [
+        {
+          "position": "GK",
+          "basePosition": "GK",
+          "playerId": 1,
+          "playerName": "Marc-Andr\u00e9 ter Stegen",
+          "naturalPosition": "GK",
+          "score": 71.1,
+          "isNaturalPosition": true,
+          "recentForm": 82.3,
+          "fitness": 87.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "RB",
+          "basePosition": "RB",
+          "playerId": 3,
+          "playerName": "Jules Kound\u00e9",
+          "naturalPosition": "RB",
+          "score": 65.1,
+          "isNaturalPosition": true,
+          "recentForm": 84.4,
+          "fitness": 89.8,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CB_1",
+          "basePosition": "CB",
+          "playerId": 5,
+          "playerName": "Ronald Ara\u00fajo",
+          "naturalPosition": "CB",
+          "score": 84.4,
+          "isNaturalPosition": true,
+          "recentForm": 80.5,
+          "fitness": 96.8,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CB_2",
+          "basePosition": "CB",
+          "playerId": 6,
+          "playerName": "Andreas Christensen",
+          "naturalPosition": "CB",
+          "score": 65.4,
+          "isNaturalPosition": true,
+          "recentForm": 88.2,
+          "fitness": 73.7,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "LB",
+          "basePosition": "LB",
+          "playerId": 9,
+          "playerName": "Alejandro Balde",
+          "naturalPosition": "LB",
+          "score": 72.8,
+          "isNaturalPosition": true,
+          "recentForm": 92.9,
+          "fitness": 93.1,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "DM",
+          "basePosition": "DM",
+          "playerId": 12,
+          "playerName": "Frenkie de Jong",
+          "naturalPosition": "DM",
+          "score": 74.3,
+          "isNaturalPosition": true,
+          "recentForm": 93.6,
+          "fitness": 75.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CM_1",
+          "basePosition": "CM",
+          "playerId": 14,
+          "playerName": "Pedri",
+          "naturalPosition": "CM",
+          "score": 77.6,
+          "isNaturalPosition": true,
+          "recentForm": 92.3,
+          "fitness": 96.2,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CM_2",
+          "basePosition": "CM",
+          "playerId": 13,
+          "playerName": "\u0130lkay G\u00fcndo\u011fan",
+          "naturalPosition": "CM",
+          "score": 71.3,
+          "isNaturalPosition": true,
+          "recentForm": 92.1,
+          "fitness": 87.4,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "RW",
+          "basePosition": "RW",
+          "playerId": 19,
+          "playerName": "Lamine Yamal",
+          "naturalPosition": "RW",
+          "score": 68.3,
+          "isNaturalPosition": true,
+          "recentForm": 90.4,
+          "fitness": 90.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "LW",
+          "basePosition": "LW",
+          "playerId": 21,
+          "playerName": "Jo\u00e3o F\u00e9lix",
+          "naturalPosition": "LW",
+          "score": 64.0,
+          "isNaturalPosition": true,
+          "recentForm": 89.6,
+          "fitness": 71.7,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "ST",
+          "basePosition": "ST",
+          "playerId": 23,
+          "playerName": "Robert Lewandowski",
+          "naturalPosition": "ST",
+          "score": 68.0,
+          "isNaturalPosition": true,
+          "recentForm": 84.0,
+          "fitness": 88.2,
+          "compatFactor": 1.0
+        }
+      ],
+      "bench": {
+        "DM": [
+          {
+            "playerId": 16,
+            "playerName": "Gavi",
+            "naturalPosition": "CM",
+            "score": 59.8,
+            "recentForm": 70.7
+          },
+          {
+            "playerId": 11,
+            "playerName": "Oriol Romeu",
+            "naturalPosition": "DM",
+            "score": 47.6,
+            "recentForm": 75.5
+          }
+        ],
+        "RB": [
+          {
+            "playerId": 4,
+            "playerName": "Jo\u00e3o Cancelo",
+            "naturalPosition": "RB",
+            "score": 58.2,
+            "recentForm": 89.1
+          },
+          {
+            "playerId": 10,
+            "playerName": "Marcos Alonso",
+            "naturalPosition": "LB",
+            "score": 12.1,
+            "recentForm": 66.6
+          }
+        ],
+        "RW": [
+          {
+            "playerId": 20,
+            "playerName": "Raphinha",
+            "naturalPosition": "RW",
+            "score": 43.5,
+            "recentForm": 87.9
+          },
+          {
+            "playerId": 17,
+            "playerName": "Dani Olmo",
+            "naturalPosition": "AM",
+            "score": 23.0,
+            "recentForm": 84.7
+          }
+        ],
+        "CM": [
+          {
+            "playerId": 16,
+            "playerName": "Gavi",
+            "naturalPosition": "CM",
+            "score": 60.6,
+            "recentForm": 70.7
+          },
+          {
+            "playerId": 17,
+            "playerName": "Dani Olmo",
+            "naturalPosition": "AM",
+            "score": 50.9,
+            "recentForm": 84.7
+          }
+        ],
+        "ST": [
+          {
+            "playerId": 24,
+            "playerName": "Marc Guiu",
+            "naturalPosition": "ST",
+            "score": 24.0,
+            "recentForm": 57.3
+          },
+          {
+            "playerId": 17,
+            "playerName": "Dani Olmo",
+            "naturalPosition": "AM",
+            "score": 26.3,
+            "recentForm": 84.7
+          }
+        ],
+        "LB": [
+          {
+            "playerId": 4,
+            "playerName": "Jo\u00e3o Cancelo",
+            "naturalPosition": "RB",
+            "score": 56.2,
+            "recentForm": 89.1
+          },
+          {
+            "playerId": 10,
+            "playerName": "Marcos Alonso",
+            "naturalPosition": "LB",
+            "score": 34.9,
+            "recentForm": 66.6
+          }
+        ],
+        "GK": [
+          {
+            "playerId": 2,
+            "playerName": "I\u00f1aki Pe\u00f1a",
+            "naturalPosition": "GK",
+            "score": 40.0,
+            "recentForm": 45.5
+          }
+        ],
+        "CB": [
+          {
+            "playerId": 7,
+            "playerName": "I\u00f1igo Mart\u00ednez",
+            "naturalPosition": "CB",
+            "score": 54.1,
+            "recentForm": 81.6
+          },
+          {
+            "playerId": 8,
+            "playerName": "Pau Cubars\u00ed",
+            "naturalPosition": "CB",
+            "score": 45.6,
+            "recentForm": 42.2
+          }
+        ],
+        "LW": [
+          {
+            "playerId": 17,
+            "playerName": "Dani Olmo",
+            "naturalPosition": "AM",
+            "score": 42.7,
+            "recentForm": 84.7
+          },
+          {
+            "playerId": 22,
+            "playerName": "Vitor Roque",
+            "naturalPosition": "LW",
+            "score": 35.1,
+            "recentForm": 61.4
+          }
+        ]
+      },
+      "teamScore": 782.3,
+      "averageScore": 71.1,
+      "outOfPosition": 0
+    },
+    "defensive": {
+      "lineup": [
+        {
+          "position": "GK",
+          "basePosition": "GK",
+          "playerId": 1,
+          "playerName": "Marc-Andr\u00e9 ter Stegen",
+          "naturalPosition": "GK",
+          "score": 68.9,
+          "isNaturalPosition": true,
+          "recentForm": 82.3,
+          "fitness": 87.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "RB",
+          "basePosition": "RB",
+          "playerId": 4,
+          "playerName": "Jo\u00e3o Cancelo",
+          "naturalPosition": "RB",
+          "score": 62.9,
+          "isNaturalPosition": true,
+          "recentForm": 89.1,
+          "fitness": 73.4,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CB_1",
+          "basePosition": "CB",
+          "playerId": 5,
+          "playerName": "Ronald Ara\u00fajo",
+          "naturalPosition": "CB",
+          "score": 82.0,
+          "isNaturalPosition": true,
+          "recentForm": 80.5,
+          "fitness": 96.8,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CB_2",
+          "basePosition": "CB",
+          "playerId": 6,
+          "playerName": "Andreas Christensen",
+          "naturalPosition": "CB",
+          "score": 59.6,
+          "isNaturalPosition": true,
+          "recentForm": 88.2,
+          "fitness": 73.7,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "LB",
+          "basePosition": "LB",
+          "playerId": 9,
+          "playerName": "Alejandro Balde",
+          "naturalPosition": "LB",
+          "score": 72.8,
+          "isNaturalPosition": true,
+          "recentForm": 92.9,
+          "fitness": 93.1,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "DM",
+          "basePosition": "DM",
+          "playerId": 12,
+          "playerName": "Frenkie de Jong",
+          "naturalPosition": "DM",
+          "score": 73.7,
+          "isNaturalPosition": true,
+          "recentForm": 93.6,
+          "fitness": 75.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CM_1",
+          "basePosition": "CM",
+          "playerId": 14,
+          "playerName": "Pedri",
+          "naturalPosition": "CM",
+          "score": 76.6,
+          "isNaturalPosition": true,
+          "recentForm": 92.3,
+          "fitness": 96.2,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CM_2",
+          "basePosition": "CM",
+          "playerId": 13,
+          "playerName": "\u0130lkay G\u00fcndo\u011fan",
+          "naturalPosition": "CM",
+          "score": 71.3,
+          "isNaturalPosition": true,
+          "recentForm": 92.1,
+          "fitness": 87.4,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "RW",
+          "basePosition": "RW",
+          "playerId": 19,
+          "playerName": "Lamine Yamal",
+          "naturalPosition": "RW",
+          "score": 69.1,
+          "isNaturalPosition": true,
+          "recentForm": 90.4,
+          "fitness": 90.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "LW",
+          "basePosition": "LW",
+          "playerId": 21,
+          "playerName": "Jo\u00e3o F\u00e9lix",
+          "naturalPosition": "LW",
+          "score": 64.0,
+          "isNaturalPosition": true,
+          "recentForm": 89.6,
+          "fitness": 71.7,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "ST",
+          "basePosition": "ST",
+          "playerId": 23,
+          "playerName": "Robert Lewandowski",
+          "naturalPosition": "ST",
+          "score": 68.3,
+          "isNaturalPosition": true,
+          "recentForm": 84.0,
+          "fitness": 88.2,
+          "compatFactor": 1.0
+        }
+      ],
+      "bench": {
+        "DM": [
+          {
+            "playerId": 11,
+            "playerName": "Oriol Romeu",
+            "naturalPosition": "DM",
+            "score": 46.9,
+            "recentForm": 75.5
+          },
+          {
+            "playerId": 16,
+            "playerName": "Gavi",
+            "naturalPosition": "CM",
+            "score": 51.9,
+            "recentForm": 70.7
+          }
+        ],
+        "RB": [
+          {
+            "playerId": 3,
+            "playerName": "Jules Kound\u00e9",
+            "naturalPosition": "RB",
+            "score": 60.4,
+            "recentForm": 84.4
+          },
+          {
+            "playerId": 10,
+            "playerName": "Marcos Alonso",
+            "naturalPosition": "LB",
+            "score": 12.1,
+            "recentForm": 66.6
+          }
+        ],
+        "RW": [
+          {
+            "playerId": 20,
+            "playerName": "Raphinha",
+            "naturalPosition": "RW",
+            "score": 44.9,
+            "recentForm": 87.9
+          },
+          {
+            "playerId": 17,
+            "playerName": "Dani Olmo",
+            "naturalPosition": "AM",
+            "score": 26.7,
+            "recentForm": 84.7
+          }
+        ],
+        "CM": [
+          {
+            "playerId": 16,
+            "playerName": "Gavi",
+            "naturalPosition": "CM",
+            "score": 62.2,
+            "recentForm": 70.7
+          },
+          {
+            "playerId": 17,
+            "playerName": "Dani Olmo",
+            "naturalPosition": "AM",
+            "score": 40.8,
+            "recentForm": 84.7
+          }
+        ],
+        "ST": [
+          {
+            "playerId": 24,
+            "playerName": "Marc Guiu",
+            "naturalPosition": "ST",
+            "score": 24.2,
+            "recentForm": 57.3
+          },
+          {
+            "playerId": 17,
+            "playerName": "Dani Olmo",
+            "naturalPosition": "AM",
+            "score": 28.2,
+            "recentForm": 84.7
+          }
+        ],
+        "LB": [
+          {
+            "playerId": 3,
+            "playerName": "Jules Kound\u00e9",
+            "naturalPosition": "RB",
+            "score": 61.4,
+            "recentForm": 84.4
+          },
+          {
+            "playerId": 10,
+            "playerName": "Marcos Alonso",
+            "naturalPosition": "LB",
+            "score": 34.9,
+            "recentForm": 66.6
+          }
+        ],
+        "GK": [
+          {
+            "playerId": 2,
+            "playerName": "I\u00f1aki Pe\u00f1a",
+            "naturalPosition": "GK",
+            "score": 37.5,
+            "recentForm": 45.5
+          }
+        ],
+        "CB": [
+          {
+            "playerId": 7,
+            "playerName": "I\u00f1igo Mart\u00ednez",
+            "naturalPosition": "CB",
+            "score": 48.2,
+            "recentForm": 81.6
+          },
+          {
+            "playerId": 8,
+            "playerName": "Pau Cubars\u00ed",
+            "naturalPosition": "CB",
+            "score": 40.8,
+            "recentForm": 42.2
+          }
+        ],
+        "LW": [
+          {
+            "playerId": 17,
+            "playerName": "Dani Olmo",
+            "naturalPosition": "AM",
+            "score": 45.7,
+            "recentForm": 84.7
+          },
+          {
+            "playerId": 22,
+            "playerName": "Vitor Roque",
+            "naturalPosition": "LW",
+            "score": 36.3,
+            "recentForm": 61.4
+          }
+        ]
+      },
+      "teamScore": 769.2,
+      "averageScore": 69.9,
+      "outOfPosition": 0
+    }
+  },
+  "4-2-3-1": {
+    "balanced": {
+      "lineup": [
+        {
+          "position": "GK",
+          "basePosition": "GK",
+          "playerId": 1,
+          "playerName": "Marc-Andr\u00e9 ter Stegen",
+          "naturalPosition": "GK",
+          "score": 69.5,
+          "isNaturalPosition": true,
+          "recentForm": 82.3,
+          "fitness": 87.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "RB",
+          "basePosition": "RB",
+          "playerId": 3,
+          "playerName": "Jules Kound\u00e9",
+          "naturalPosition": "RB",
+          "score": 63.8,
+          "isNaturalPosition": true,
+          "recentForm": 84.4,
+          "fitness": 89.8,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CB_1",
+          "basePosition": "CB",
+          "playerId": 5,
+          "playerName": "Ronald Ara\u00fajo",
+          "naturalPosition": "CB",
+          "score": 82.9,
+          "isNaturalPosition": true,
+          "recentForm": 80.5,
+          "fitness": 96.8,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CB_2",
+          "basePosition": "CB",
+          "playerId": 6,
+          "playerName": "Andreas Christensen",
+          "naturalPosition": "CB",
+          "score": 61.7,
+          "isNaturalPosition": true,
+          "recentForm": 88.2,
+          "fitness": 73.7,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "LB",
+          "basePosition": "LB",
+          "playerId": 9,
+          "playerName": "Alejandro Balde",
+          "naturalPosition": "LB",
+          "score": 73.5,
+          "isNaturalPosition": true,
+          "recentForm": 92.9,
+          "fitness": 93.1,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "DM_1",
+          "basePosition": "DM",
+          "playerId": 12,
+          "playerName": "Frenkie de Jong",
+          "naturalPosition": "DM",
+          "score": 75.1,
+          "isNaturalPosition": true,
+          "recentForm": 93.6,
+          "fitness": 75.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "DM_2",
+          "basePosition": "DM",
+          "playerId": 14,
+          "playerName": "Pedri",
+          "naturalPosition": "CM",
+          "score": 64.2,
+          "isNaturalPosition": false,
+          "recentForm": 92.3,
+          "fitness": 96.2,
+          "compatFactor": 0.84
+        },
+        {
+          "position": "RW",
+          "basePosition": "RW",
+          "playerId": 19,
+          "playerName": "Lamine Yamal",
+          "naturalPosition": "RW",
+          "score": 68.8,
+          "isNaturalPosition": true,
+          "recentForm": 90.4,
+          "fitness": 90.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "AM",
+          "basePosition": "AM",
+          "playerId": 17,
+          "playerName": "Dani Olmo",
+          "naturalPosition": "AM",
+          "score": 68.7,
+          "isNaturalPosition": true,
+          "recentForm": 84.7,
+          "fitness": 74.8,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "LW",
+          "basePosition": "LW",
+          "playerId": 21,
+          "playerName": "Jo\u00e3o F\u00e9lix",
+          "naturalPosition": "LW",
+          "score": 64.0,
+          "isNaturalPosition": true,
+          "recentForm": 89.6,
+          "fitness": 71.7,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "ST",
+          "basePosition": "ST",
+          "playerId": 23,
+          "playerName": "Robert Lewandowski",
+          "naturalPosition": "ST",
+          "score": 68.4,
+          "isNaturalPosition": true,
+          "recentForm": 84.0,
+          "fitness": 88.2,
+          "compatFactor": 1.0
+        }
+      ],
+      "bench": {
+        "DM": [
+          {
+            "playerId": 13,
+            "playerName": "\u0130lkay G\u00fcndo\u011fan",
+            "naturalPosition": "CM",
+            "score": 62.5,
+            "recentForm": 92.1
+          },
+          {
+            "playerId": 16,
+            "playerName": "Gavi",
+            "naturalPosition": "CM",
+            "score": 57.0,
+            "recentForm": 70.7
+          }
+        ],
+        "RB": [
+          {
+            "playerId": 4,
+            "playerName": "Jo\u00e3o Cancelo",
+            "naturalPosition": "RB",
+            "score": 61.4,
+            "recentForm": 89.1
+          },
+          {
+            "playerId": 10,
+            "playerName": "Marcos Alonso",
+            "naturalPosition": "LB",
+            "score": 13.1,
+            "recentForm": 66.6
+          }
+        ],
+        "RW": [
+          {
+            "playerId": 20,
+            "playerName": "Raphinha",
+            "naturalPosition": "RW",
+            "score": 44.4,
+            "recentForm": 87.9
+          },
+          {
+            "playerId": 18,
+            "playerName": "Ferran Torres",
+            "naturalPosition": "AM",
+            "score": 20.1,
+            "recentForm": 77.7
+          }
+        ],
+        "ST": [
+          {
+            "playerId": 24,
+            "playerName": "Marc Guiu",
+            "naturalPosition": "ST",
+            "score": 24.3,
+            "recentForm": 57.3
+          },
+          {
+            "playerId": 18,
+            "playerName": "Ferran Torres",
+            "naturalPosition": "AM",
+            "score": 26.7,
+            "recentForm": 77.7
+          }
+        ],
+        "LB": [
+          {
+            "playerId": 4,
+            "playerName": "Jo\u00e3o Cancelo",
+            "naturalPosition": "RB",
+            "score": 59.7,
+            "recentForm": 89.1
+          },
+          {
+            "playerId": 10,
+            "playerName": "Marcos Alonso",
+            "naturalPosition": "LB",
+            "score": 35.4,
+            "recentForm": 66.6
+          }
+        ],
+        "GK": [
+          {
+            "playerId": 2,
+            "playerName": "I\u00f1aki Pe\u00f1a",
+            "naturalPosition": "GK",
+            "score": 38.7,
+            "recentForm": 45.5
+          }
+        ],
+        "CB": [
+          {
+            "playerId": 7,
+            "playerName": "I\u00f1igo Mart\u00ednez",
+            "naturalPosition": "CB",
+            "score": 50.8,
+            "recentForm": 81.6
+          },
+          {
+            "playerId": 8,
+            "playerName": "Pau Cubars\u00ed",
+            "naturalPosition": "CB",
+            "score": 42.2,
+            "recentForm": 42.2
+          }
+        ],
+        "AM": [
+          {
+            "playerId": 20,
+            "playerName": "Raphinha",
+            "naturalPosition": "RW",
+            "score": 57.8,
+            "recentForm": 87.9
+          },
+          {
+            "playerId": 18,
+            "playerName": "Ferran Torres",
+            "naturalPosition": "AM",
+            "score": 52.5,
+            "recentForm": 77.7
+          }
+        ],
+        "LW": [
+          {
+            "playerId": 22,
+            "playerName": "Vitor Roque",
+            "naturalPosition": "LW",
+            "score": 35.9,
+            "recentForm": 61.4
+          },
+          {
+            "playerId": 18,
+            "playerName": "Ferran Torres",
+            "naturalPosition": "AM",
+            "score": 36.0,
+            "recentForm": 77.7
+          }
+        ]
+      },
+      "teamScore": 760.6,
+      "averageScore": 69.1,
+      "outOfPosition": 1
+    },
+    "attacking": {
+      "lineup": [
+        {
+          "position": "GK",
+          "basePosition": "GK",
+          "playerId": 1,
+          "playerName": "Marc-Andr\u00e9 ter Stegen",
+          "naturalPosition": "GK",
+          "score": 71.1,
+          "isNaturalPosition": true,
+          "recentForm": 82.3,
+          "fitness": 87.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "RB",
+          "basePosition": "RB",
+          "playerId": 3,
+          "playerName": "Jules Kound\u00e9",
+          "naturalPosition": "RB",
+          "score": 65.1,
+          "isNaturalPosition": true,
+          "recentForm": 84.4,
+          "fitness": 89.8,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CB_1",
+          "basePosition": "CB",
+          "playerId": 5,
+          "playerName": "Ronald Ara\u00fajo",
+          "naturalPosition": "CB",
+          "score": 84.4,
+          "isNaturalPosition": true,
+          "recentForm": 80.5,
+          "fitness": 96.8,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CB_2",
+          "basePosition": "CB",
+          "playerId": 6,
+          "playerName": "Andreas Christensen",
+          "naturalPosition": "CB",
+          "score": 65.4,
+          "isNaturalPosition": true,
+          "recentForm": 88.2,
+          "fitness": 73.7,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "LB",
+          "basePosition": "LB",
+          "playerId": 9,
+          "playerName": "Alejandro Balde",
+          "naturalPosition": "LB",
+          "score": 72.8,
+          "isNaturalPosition": true,
+          "recentForm": 92.9,
+          "fitness": 93.1,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "DM_1",
+          "basePosition": "DM",
+          "playerId": 12,
+          "playerName": "Frenkie de Jong",
+          "naturalPosition": "DM",
+          "score": 74.3,
+          "isNaturalPosition": true,
+          "recentForm": 93.6,
+          "fitness": 75.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "DM_2",
+          "basePosition": "DM",
+          "playerId": 14,
+          "playerName": "Pedri",
+          "naturalPosition": "CM",
+          "score": 67.9,
+          "isNaturalPosition": false,
+          "recentForm": 92.3,
+          "fitness": 96.2,
+          "compatFactor": 0.84
+        },
+        {
+          "position": "RW",
+          "basePosition": "RW",
+          "playerId": 19,
+          "playerName": "Lamine Yamal",
+          "naturalPosition": "RW",
+          "score": 68.3,
+          "isNaturalPosition": true,
+          "recentForm": 90.4,
+          "fitness": 90.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "AM",
+          "basePosition": "AM",
+          "playerId": 17,
+          "playerName": "Dani Olmo",
+          "naturalPosition": "AM",
+          "score": 67.1,
+          "isNaturalPosition": true,
+          "recentForm": 84.7,
+          "fitness": 74.8,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "LW",
+          "basePosition": "LW",
+          "playerId": 21,
+          "playerName": "Jo\u00e3o F\u00e9lix",
+          "naturalPosition": "LW",
+          "score": 64.0,
+          "isNaturalPosition": true,
+          "recentForm": 89.6,
+          "fitness": 71.7,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "ST",
+          "basePosition": "ST",
+          "playerId": 23,
+          "playerName": "Robert Lewandowski",
+          "naturalPosition": "ST",
+          "score": 68.0,
+          "isNaturalPosition": true,
+          "recentForm": 84.0,
+          "fitness": 88.2,
+          "compatFactor": 1.0
+        }
+      ],
+      "bench": {
+        "DM": [
+          {
+            "playerId": 13,
+            "playerName": "\u0130lkay G\u00fcndo\u011fan",
+            "naturalPosition": "CM",
+            "score": 66.3,
+            "recentForm": 92.1
+          },
+          {
+            "playerId": 16,
+            "playerName": "Gavi",
+            "naturalPosition": "CM",
+            "score": 59.8,
+            "recentForm": 70.7
+          }
+        ],
+        "RB": [
+          {
+            "playerId": 4,
+            "playerName": "Jo\u00e3o Cancelo",
+            "naturalPosition": "RB",
+            "score": 58.2,
+            "recentForm": 89.1
+          },
+          {
+            "playerId": 10,
+            "playerName": "Marcos Alonso",
+            "naturalPosition": "LB",
+            "score": 12.1,
+            "recentForm": 66.6
+          }
+        ],
+        "RW": [
+          {
+            "playerId": 20,
+            "playerName": "Raphinha",
+            "naturalPosition": "RW",
+            "score": 43.5,
+            "recentForm": 87.9
+          },
+          {
+            "playerId": 18,
+            "playerName": "Ferran Torres",
+            "naturalPosition": "AM",
+            "score": 18.4,
+            "recentForm": 77.7
+          }
+        ],
+        "ST": [
+          {
+            "playerId": 24,
+            "playerName": "Marc Guiu",
+            "naturalPosition": "ST",
+            "score": 24.0,
+            "recentForm": 57.3
+          },
+          {
+            "playerId": 18,
+            "playerName": "Ferran Torres",
+            "naturalPosition": "AM",
+            "score": 24.0,
+            "recentForm": 77.7
+          }
+        ],
+        "LB": [
+          {
+            "playerId": 4,
+            "playerName": "Jo\u00e3o Cancelo",
+            "naturalPosition": "RB",
+            "score": 56.2,
+            "recentForm": 89.1
+          },
+          {
+            "playerId": 10,
+            "playerName": "Marcos Alonso",
+            "naturalPosition": "LB",
+            "score": 34.9,
+            "recentForm": 66.6
+          }
+        ],
+        "GK": [
+          {
+            "playerId": 2,
+            "playerName": "I\u00f1aki Pe\u00f1a",
+            "naturalPosition": "GK",
+            "score": 40.0,
+            "recentForm": 45.5
+          }
+        ],
+        "CB": [
+          {
+            "playerId": 7,
+            "playerName": "I\u00f1igo Mart\u00ednez",
+            "naturalPosition": "CB",
+            "score": 54.1,
+            "recentForm": 81.6
+          },
+          {
+            "playerId": 8,
+            "playerName": "Pau Cubars\u00ed",
+            "naturalPosition": "CB",
+            "score": 45.6,
+            "recentForm": 42.2
+          }
+        ],
+        "AM": [
+          {
+            "playerId": 18,
+            "playerName": "Ferran Torres",
+            "naturalPosition": "AM",
+            "score": 51.6,
+            "recentForm": 77.7
+          },
+          {
+            "playerId": 20,
+            "playerName": "Raphinha",
+            "naturalPosition": "RW",
+            "score": 55.2,
+            "recentForm": 87.9
+          }
+        ],
+        "LW": [
+          {
+            "playerId": 22,
+            "playerName": "Vitor Roque",
+            "naturalPosition": "LW",
+            "score": 35.1,
+            "recentForm": 61.4
+          },
+          {
+            "playerId": 18,
+            "playerName": "Ferran Torres",
+            "naturalPosition": "AM",
+            "score": 36.1,
+            "recentForm": 77.7
+          }
+        ]
+      },
+      "teamScore": 768.4,
+      "averageScore": 69.9,
+      "outOfPosition": 1
+    },
+    "defensive": {
+      "lineup": [
+        {
+          "position": "GK",
+          "basePosition": "GK",
+          "playerId": 1,
+          "playerName": "Marc-Andr\u00e9 ter Stegen",
+          "naturalPosition": "GK",
+          "score": 68.9,
+          "isNaturalPosition": true,
+          "recentForm": 82.3,
+          "fitness": 87.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "RB",
+          "basePosition": "RB",
+          "playerId": 4,
+          "playerName": "Jo\u00e3o Cancelo",
+          "naturalPosition": "RB",
+          "score": 62.9,
+          "isNaturalPosition": true,
+          "recentForm": 89.1,
+          "fitness": 73.4,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CB_1",
+          "basePosition": "CB",
+          "playerId": 5,
+          "playerName": "Ronald Ara\u00fajo",
+          "naturalPosition": "CB",
+          "score": 82.0,
+          "isNaturalPosition": true,
+          "recentForm": 80.5,
+          "fitness": 96.8,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "CB_2",
+          "basePosition": "CB",
+          "playerId": 6,
+          "playerName": "Andreas Christensen",
+          "naturalPosition": "CB",
+          "score": 59.6,
+          "isNaturalPosition": true,
+          "recentForm": 88.2,
+          "fitness": 73.7,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "LB",
+          "basePosition": "LB",
+          "playerId": 9,
+          "playerName": "Alejandro Balde",
+          "naturalPosition": "LB",
+          "score": 72.8,
+          "isNaturalPosition": true,
+          "recentForm": 92.9,
+          "fitness": 93.1,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "DM_1",
+          "basePosition": "DM",
+          "playerId": 12,
+          "playerName": "Frenkie de Jong",
+          "naturalPosition": "DM",
+          "score": 73.7,
+          "isNaturalPosition": true,
+          "recentForm": 93.6,
+          "fitness": 75.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "DM_2",
+          "basePosition": "DM",
+          "playerId": 14,
+          "playerName": "Pedri",
+          "naturalPosition": "CM",
+          "score": 58.6,
+          "isNaturalPosition": false,
+          "recentForm": 92.3,
+          "fitness": 96.2,
+          "compatFactor": 0.84
+        },
+        {
+          "position": "RW",
+          "basePosition": "RW",
+          "playerId": 19,
+          "playerName": "Lamine Yamal",
+          "naturalPosition": "RW",
+          "score": 69.1,
+          "isNaturalPosition": true,
+          "recentForm": 90.4,
+          "fitness": 90.0,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "AM",
+          "basePosition": "AM",
+          "playerId": 17,
+          "playerName": "Dani Olmo",
+          "naturalPosition": "AM",
+          "score": 70.8,
+          "isNaturalPosition": true,
+          "recentForm": 84.7,
+          "fitness": 74.8,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "LW",
+          "basePosition": "LW",
+          "playerId": 21,
+          "playerName": "Jo\u00e3o F\u00e9lix",
+          "naturalPosition": "LW",
+          "score": 64.0,
+          "isNaturalPosition": true,
+          "recentForm": 89.6,
+          "fitness": 71.7,
+          "compatFactor": 1.0
+        },
+        {
+          "position": "ST",
+          "basePosition": "ST",
+          "playerId": 23,
+          "playerName": "Robert Lewandowski",
+          "naturalPosition": "ST",
+          "score": 68.3,
+          "isNaturalPosition": true,
+          "recentForm": 84.0,
+          "fitness": 88.2,
+          "compatFactor": 1.0
+        }
+      ],
+      "bench": {
+        "DM": [
+          {
+            "playerId": 13,
+            "playerName": "\u0130lkay G\u00fcndo\u011fan",
+            "naturalPosition": "CM",
+            "score": 56.7,
+            "recentForm": 92.1
+          },
+          {
+            "playerId": 11,
+            "playerName": "Oriol Romeu",
+            "naturalPosition": "DM",
+            "score": 46.9,
+            "recentForm": 75.5
+          }
+        ],
+        "RB": [
+          {
+            "playerId": 3,
+            "playerName": "Jules Kound\u00e9",
+            "naturalPosition": "RB",
+            "score": 60.4,
+            "recentForm": 84.4
+          },
+          {
+            "playerId": 10,
+            "playerName": "Marcos Alonso",
+            "naturalPosition": "LB",
+            "score": 12.1,
+            "recentForm": 66.6
+          }
+        ],
+        "RW": [
+          {
+            "playerId": 20,
+            "playerName": "Raphinha",
+            "naturalPosition": "RW",
+            "score": 44.9,
+            "recentForm": 87.9
+          },
+          {
+            "playerId": 18,
+            "playerName": "Ferran Torres",
+            "naturalPosition": "AM",
+            "score": 21.1,
+            "recentForm": 77.7
+          }
+        ],
+        "ST": [
+          {
+            "playerId": 24,
+            "playerName": "Marc Guiu",
+            "naturalPosition": "ST",
+            "score": 24.2,
+            "recentForm": 57.3
+          },
+          {
+            "playerId": 18,
+            "playerName": "Ferran Torres",
+            "naturalPosition": "AM",
+            "score": 25.6,
+            "recentForm": 77.7
+          }
+        ],
+        "LB": [
+          {
+            "playerId": 3,
+            "playerName": "Jules Kound\u00e9",
+            "naturalPosition": "RB",
+            "score": 61.4,
+            "recentForm": 84.4
+          },
+          {
+            "playerId": 10,
+            "playerName": "Marcos Alonso",
+            "naturalPosition": "LB",
+            "score": 34.9,
+            "recentForm": 66.6
+          }
+        ],
+        "GK": [
+          {
+            "playerId": 2,
+            "playerName": "I\u00f1aki Pe\u00f1a",
+            "naturalPosition": "GK",
+            "score": 37.5,
+            "recentForm": 45.5
+          }
+        ],
+        "CB": [
+          {
+            "playerId": 7,
+            "playerName": "I\u00f1igo Mart\u00ednez",
+            "naturalPosition": "CB",
+            "score": 48.2,
+            "recentForm": 81.6
+          },
+          {
+            "playerId": 8,
+            "playerName": "Pau Cubars\u00ed",
+            "naturalPosition": "CB",
+            "score": 40.8,
+            "recentForm": 42.2
+          }
+        ],
+        "AM": [
+          {
+            "playerId": 20,
+            "playerName": "Raphinha",
+            "naturalPosition": "RW",
+            "score": 59.4,
+            "recentForm": 87.9
+          },
+          {
+            "playerId": 18,
+            "playerName": "Ferran Torres",
+            "naturalPosition": "AM",
+            "score": 54.1,
+            "recentForm": 77.7
+          }
+        ],
+        "LW": [
+          {
+            "playerId": 22,
+            "playerName": "Vitor Roque",
+            "naturalPosition": "LW",
+            "score": 36.3,
+            "recentForm": 61.4
+          },
+          {
+            "playerId": 18,
+            "playerName": "Ferran Torres",
+            "naturalPosition": "AM",
+            "score": 37.9,
+            "recentForm": 77.7
+          }
+        ]
+      },
+      "teamScore": 750.7,
+      "averageScore": 68.2,
+      "outOfPosition": 1
+    }
+  }
+}
