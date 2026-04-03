@@ -28,11 +28,6 @@ This application solves that by combining structured data with a scoring engine 
 
 ###   Tactical Flexibility
 
-* Supports multiple formations:
-
-  * 4-3-3
-  * 4-2-3-1
-
 Supports multiple modern tactical systems:
 
 - **4-3-3** — Balanced attack with width and midfield control  
