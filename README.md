@@ -32,12 +32,18 @@ This application solves that by combining structured data with a scoring engine 
 
   * 4-3-3
   * 4-2-3-1
-  * 4-4-2
+
+Supports multiple modern tactical systems:
+
+- **4-3-3** — Balanced attack with width and midfield control  
+- **4-2-3-1** — Structured defense with creative attacking midfield
+  
 * Switch between tactical modes:
 
   * Balanced
   * Attacking
   * Defensive
+      
 
 ### 🟢 Interactive Pitch Visualization
 
