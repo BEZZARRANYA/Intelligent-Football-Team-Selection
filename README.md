@@ -6,7 +6,7 @@ Built with a focus on **real-world decision systems**, this project simulates ho
 
 ---
 
-## 🚀 Overview
+##   Overview
 
 Selecting the best starting XI is a complex problem involving:
 
@@ -19,14 +19,14 @@ This application solves that by combining structured data with a scoring engine 
 
 ---
 
-## ✨ Key Features
+##   Key Features
 
-### 🧠 Intelligent Lineup Generation
+###   Intelligent Lineup Generation
 
 * Automatically selects the best XI based on performance metrics
 * Considers player strengths, recent form, and fitness
 
-### ⚙️ Tactical Flexibility
+###   Tactical Flexibility
 
 * Supports multiple formations:
 
@@ -91,7 +91,7 @@ This application solves that by combining structured data with a scoring engine 
 
 ---
 
-## 🧩 Architecture & Design
+##   Architecture & Design
 
 This project is structured to mimic a **real production frontend**:
 
@@ -131,7 +131,7 @@ npm run dev
 
 ---
 
-## 💡 What This Project Demonstrates
+##   What This Project Demonstrates
 
 This is not just a UI — it demonstrates:
 
@@ -143,7 +143,7 @@ This is not just a UI — it demonstrates:
 
 ---
 
-## 📌 Future Improvements
+##   Future Improvements
 
 * Live API integration (real player stats)
 * Advanced metrics (xG, xA, heatmaps)
@@ -159,7 +159,7 @@ This is not just a UI — it demonstrates:
 
 ---
 
-## ⭐ Why This Matters
+##   Why This Matters
 
 Modern football is driven by data.
 
