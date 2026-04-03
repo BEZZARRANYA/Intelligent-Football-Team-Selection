@@ -1,73 +1,172 @@
-# React + TypeScript + Vite
+# ⚽ Intelligent Football Lineup Recommender
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A data-driven web application that generates optimal football lineups using performance analytics, tactical constraints, and position-aware scoring.
 
-Currently, two official plugins are available:
+Built with a focus on **real-world decision systems**, this project simulates how modern football teams leverage data to optimize squad selection and maximize on-field performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Selecting the best starting XI is a complex problem involving:
 
-## Expanding the ESLint configuration
+* Player form and fitness
+* Tactical system compatibility
+* Position specialization
+* Team chemistry
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This application solves that by combining structured data with a scoring engine to produce **intelligent, explainable lineup recommendations**.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ✨ Key Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 🧠 Intelligent Lineup Generation
+
+* Automatically selects the best XI based on performance metrics
+* Considers player strengths, recent form, and fitness
+
+### ⚙️ Tactical Flexibility
+
+* Supports multiple formations:
+
+  * 4-3-3
+  * 4-2-3-1
+  * 4-4-2
+* Switch between tactical modes:
+
+  * Balanced
+  * Attacking
+  * Defensive
+
+### 🟢 Interactive Pitch Visualization
+
+* Real-time lineup rendered on a football pitch
+* Click any player to view detailed analysis
+* Visual indicators for out-of-position players
+
+### 👤 Player Intelligence Panel
+
+* Explainable selection reasoning
+* Key strengths and contribution breakdown
+* Form, fitness, and match statistics
+* Comparison with alternative players
+
+### 📊 Team Analysis Dashboard
+
+* Overall team score and average rating
+* Chemistry insights
+* Position mismatch detection
+* Clear performance indicators
+
+### 🔄 Formation Comparison Engine
+
+* Compare formations across tactical modes
+* Identify optimal setups based on scoring output
+
+---
+
+## 📸 Screenshots
+## 🖥️ Live Interface Preview
+
+### 🟢 Pitch View
+![Pitch](./screenshots/pitch.png)
+
+### 👤 Player Analysis
+![Player](./screenshots/player.png)
+
+### 📊 Team Analysis
+![Team](./screenshots/team.png)
+
+### ⚙️ Tactical Modes
+
+**Balanced**
+![Balanced](./screenshots/balanced.png)
+
+**Attacking**
+![Attacking](./screenshots/attacking.png)
+
+**Defensive**
+![Defensive](./screenshots/defensive.png)
+
+---
+
+## 🧩 Architecture & Design
+
+This project is structured to mimic a **real production frontend**:
+
+```id="code1"
+src/
+  components/        # UI components (modular & reusable)
+  hooks/             # Data layer (custom React hooks)
+  types/             # Strong TypeScript typing
+  data/              # Structured input datasets
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Key Design Decisions
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+* **Separation of concerns**: data logic isolated in hooks (`useData`)
+* **Type safety**: full TypeScript coverage for reliability
+* **Composable UI**: reusable components for scalability
+* **Explainability-first**: every decision is backed by clear reasoning
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 🛠️ Tech Stack
+
+* **React + TypeScript** — scalable, type-safe UI
+* **Vite** — fast build tooling
+* **Tailwind CSS** — utility-first styling
+* **ShadCN UI** — modern component system
+* **Lucide Icons** — clean iconography
+
+---
+
+## ▶️ Getting Started
+
+```bash
+npm install
+npm run dev
 ```
+
+---
+
+## 💡 What This Project Demonstrates
+
+This is not just a UI — it demonstrates:
+
+* Designing **data-driven decision systems**
+* Translating complex logic into intuitive UX
+* Building **interactive analytical dashboards**
+* Writing **clean, maintainable React architecture**
+* Creating **production-quality UI under time constraints**
+
+---
+
+## 📌 Future Improvements
+
+* Live API integration (real player stats)
+* Advanced metrics (xG, xA, heatmaps)
+* Drag-and-drop lineup editing
+* Authentication & team management
+* Deployment with real-time updates
+
+---
+
+## 👤 Author
+
+**Rania Bezzar**
+
+---
+
+## ⭐ Why This Matters
+
+Modern football is driven by data.
+
+This project reflects how software can bridge the gap between:
+
+* raw performance metrics
+* tactical decision-making
+* and user-friendly insights
+
+It’s a step toward building tools used in real-world sports analytics environments.
