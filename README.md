@@ -67,7 +67,6 @@ This application solves that by combining structured data with a scoring engine 
 
 ---
 
-## 📸 Screenshots
 ## 🖥️ Live Interface Preview
 
 ### 🟢 Pitch View
